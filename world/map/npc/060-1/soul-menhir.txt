@@ -1,0 +1,17 @@
+//50,67
+
+060-1,16,30,0|script|Soul Menhir#meleisland|502
+{
+    set @map$, "060-1";
+    setarray @Xs, 14, 15, 15, 14, 14, 14, 14;
+    setarray @Ys, 29, 29, 30, 30, 29, 30, 28;
+    set @x, 0;
+    set @y, 0;
+    callfunc "SoulMenhir";
+    set @map$, "";
+    cleararray @Xs[0], 0, 7;
+    cleararray @Ys[0], 0, 7;
+    set @x, 0;
+    set @y, 0;
+    close;
+}

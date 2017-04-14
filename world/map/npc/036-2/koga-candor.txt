@@ -12,6 +12,8 @@ L_Leave:
         goto L_Candor;
     if ($@CandorCurrentDock == 1)
         goto L_Hurnscald;
+    if ($@CandorCurrentDock == 2)
+        goto L_Lost;
     goto L_Close;
 
 L_Hurnscald:
@@ -20,6 +22,10 @@ L_Hurnscald:
 
 L_Candor:
     warp "029-1", 46, 109;
+    goto L_Close;
+
+L_Lost:
+    warp "066-1", 139, 68;
     goto L_Close;
 
 L_Close:

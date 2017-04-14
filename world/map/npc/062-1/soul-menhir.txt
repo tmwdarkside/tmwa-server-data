@@ -1,0 +1,17 @@
+//50,67
+
+062-1,39,88,0|script|Soul Menhir#pretty|504
+{
+    set @map$, "062-1";
+    setarray @Xs, 39, 39, 38, 39, 38, 37, 39;
+    setarray @Ys, 88, 87, 88, 89, 88, 88, 86;
+    set @x, 0;
+    set @y, 0;
+    callfunc "SoulMenhir";
+    set @map$, "";
+    cleararray @Xs[0], 0, 7;
+    cleararray @Ys[0], 0, 7;
+    set @x, 0;
+    set @y, 0;
+    close;
+}

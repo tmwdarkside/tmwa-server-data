@@ -1,0 +1,17 @@
+// The Night Side Warp
+
+009-1,30,48,0|script|#darkside1|45,0,0
+{
+    mes "This will cross you to the dark side (a pararell world in night mode for high level players). Are you ready to go?";
+    next;
+    menu
+        "Yes.", L_Night,
+        "Nevermind.", L_Close;
+
+L_Night:
+    warp "1009-1",30,48;
+    goto L_Close;
+
+L_Close:
+    close;
+}

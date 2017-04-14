@@ -10,12 +10,13 @@ OnInit:
     disablenpc "Nivalis Koga";
     disablenpc "Hurnscald North Koga";
     disablenpc "Tulimshar Koga";
+    disablenpc "Lost Island";
     set $@MainCurrentDock, 0;
     set $@CandorCurrentDock, 0;
     set $@DockTickCount, 0;
     set $@DockLeaveCount, 1;
     setarray $@MainDocks$, "Hurnscald North", "Nivalis", "Tulimshar";
-    setarray $@CandorDocks$, "Candor", "Hurnscald South";
+    setarray $@CandorDocks$, "Candor", "Hurnscald South", "Lost Island";
     donpcevent "#"+$@MainDocks$[$@MainCurrentDock]+"Dock::OnCommandArrive";
     donpcevent "#"+$@CandorDocks$[$@CandorCurrentDock]+"Dock::OnCommandArrive";
     set .warp_delay, 430;
@@ -55,10 +56,10 @@ OnTimer5000:
     initnpctimer;
     end;
 
-
 L_k1city1:
   enablenpc "#k1city1e"; disablenpc "#k1city2e"; disablenpc "#k1city3e";
   disablenpc "#k1city1d"; enablenpc "#k1city2d"; enablenpc "#k1city3d";
+  if($@CandorCurrentDock == 2) goto L_k2city3;
   if($@CandorCurrentDock == 1) goto L_k2city1;
   if($@CandorCurrentDock == 0) goto L_k2city2;
 end;
@@ -66,25 +67,34 @@ end;
 L_k1city2:
   disablenpc "#k1city1e"; enablenpc "#k1city2e"; disablenpc "#k1city3e";
   enablenpc "#k1city1d"; disablenpc "#k1city2d"; enablenpc "#k1city3d";
+  if($@CandorCurrentDock == 2) goto L_k2city3;
   if($@CandorCurrentDock == 1) goto L_k2city1;
   if($@CandorCurrentDock == 0) goto L_k2city2;
+
 end;
 
 L_k1city3:
   disablenpc "#k1city1e"; disablenpc "#k1city2e"; enablenpc "#k1city3e";
   enablenpc "#k1city1d"; enablenpc "#k1city2d"; disablenpc "#k1city3d";
+  if($@CandorCurrentDock == 2) goto L_k2city3;
   if($@CandorCurrentDock == 1) goto L_k2city1;
   if($@CandorCurrentDock == 0) goto L_k2city2;
 end;
 
 L_k2city1:
-  enablenpc "#k2city1e"; disablenpc "#k2city2e";
-  disablenpc "#k2city1d"; enablenpc "#k2city2d";
+  enablenpc "#k2city1e"; disablenpc "#k2city2e"; disablenpc "#k2city3e";
+  disablenpc "#k2city1d"; enablenpc "#k2city2d"; enablenpc "#k2city3d";
 end;
 
 L_k2city2:
-  disablenpc "#k2city1e"; enablenpc "#k2city2e";
-  enablenpc "#k2city1d"; disablenpc "#k2city2d";
+  disablenpc "#k2city1e"; enablenpc "#k2city2e"; disablenpc "#k2city3e";
+  enablenpc "#k2city1d"; disablenpc "#k2city2d"; enablenpc "#k2city3d";
+end;
+
+
+L_k2city3:
+  disablenpc "#k2city1e"; disablenpc "#k2city2e"; enablenpc "#k2city3e";
+  enablenpc "#k2city1d"; enablenpc "#k2city2d"; disablenpc "#k2city3d";
 end;
 }
 
@@ -95,7 +105,7 @@ function|script|FerryHelp
     mes "\"Once on the ship, it will sail to different ports and annouce where it is docking.\"";
     mes "\"There are 2 Ferrys, both ferrys are free to ride.\"";
     mes "\"The Main ferry travels from Argeas, Kaizei and Tonori. It docks in the major ports Hurnscald North, Nivalis and the Tulimshar Dock.\"";
-    mes "\"The Candor Ferry only travels betwen Candor and the Hurnscald South Dock.\"";
+    mes "\"The Candor Ferry only travels betwen Candor, Lost Island and the Hurnscald South Dock.\"";
     mes "\"Refreshments and supplies are offered aboard both ships during the voyage.\"";
     mes "\"We also have some slot machines in case you get bored.\"";
     return;
@@ -123,6 +133,7 @@ function|script|BoardCandorFerry
 {
     if   ($@CandorCurrentDock == 0 && getmap() == "029-1") goto L_Board;
     elif ($@CandorCurrentDock == 1 && getmap() == "008-1") goto L_Board;
+    elif ($@CandorCurrentDock == 2 && getmap() == "066-1") goto L_Board;
 
     set @NextDock, $@CandorCurrentDock + 1;
     if(@NextDock == getarraysize($@CandorDocks$)) set @NextDock, 0;

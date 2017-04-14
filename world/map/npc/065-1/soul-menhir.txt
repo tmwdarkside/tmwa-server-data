@@ -1,0 +1,17 @@
+//95,110
+
+065-1,50,67,0|script|Soul Menhir#noname|501
+{
+    set @map$, "065-1";
+    setarray @Xs, 49, 50, 51, 49, 51, 49, 51;
+    setarray @Ys, 66, 66, 67, 67, 67, 68, 68;
+    set @x, 0;
+    set @y, 0;
+    callfunc "SoulMenhir";
+    set @map$, "";
+    cleararray @Xs[0], 0, 7;
+    cleararray @Ys[0], 0, 7;
+    set @x, 0;
+    set @y, 0;
+    close;
+}

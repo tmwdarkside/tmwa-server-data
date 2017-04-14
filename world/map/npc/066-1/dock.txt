@@ -1,0 +1,47 @@
+// The ferry dock
+066-1,142,69,0|script|Lost Island Dock|400,2,1
+{
+    set @npc_distance, 3;
+    callfunc "PCtoNPCRange";
+    if(@npc_check) end;
+    callfunc "BoardCandorFerry";
+    end;
+}
+
+066-1,150,68,0|script|Lost Island|395,10,3
+{
+    set @npc_distance, 10;
+    callfunc "PCtoNPCRange";
+    if(@npc_check) end;
+    callfunc "BoardCandorFerry";
+    end;
+
+OnTouch:
+    addtimer get(.warp_delay, "#FerryConfig"), strnpcinfo(0)+"::OnBoard";
+    end;
+
+OnBoard:
+    callfunc "BoardCandorFerry";
+    end;
+}
+
+//68,18
+//34, 80, 39, 81
+066-1,123,48,0|script|#Lost IslandDock|32767
+{
+    end;
+OnCommandArrive:
+    disablenpc "Lost Island Dock";
+    enablenpc "Lost Island";
+    areatimer 0, "066-1", 140, 68, 144, 69, get(.warp_delay, "#FerryConfig"), strnpcinfo(0)+"::OnAreaWarp"; // warp players on dock
+    end;
+
+OnAreaWarp:
+    callfunc "BoardCandorFerry";
+    end;
+
+OnCommandWarp:
+    disablenpc "Lost Island";
+    enablenpc "Lost Island Dock";
+    end;
+}

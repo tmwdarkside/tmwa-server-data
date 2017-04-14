@@ -26,6 +26,7 @@ OnInit:
     set $@barbarians_bit, (1 << 14);
     set $@hurns_farms_bit, (1 << 15);
     set $@candor_bit, (1 << 16);
+    set $@lostisland_bit, (1 << 17);
     // Travel Base Cost
     set $@tulimshar_cost, 100;
     set $@hurnscald_cost, 100;
@@ -40,6 +41,7 @@ OnInit:
     set $@barbarians_cost, 150;
     set $@hurns_farms_cost, 150;
     set $@candor_cost, 200;
+    set $@lostisland_cost, 200;
     end;
 }
 
@@ -98,6 +100,7 @@ L_Start:
         "Argeas - Terranite Cave (" + (@Cost * $@terranite_cave_cost) + " GP)", L_TravelTerranite,
         "Kaizei - Barbarian Village (" + (@Cost * $@barbarians_cost) + " GP)", L_TravelBarbarians,
         "Kaizei - Sage Nikolai's Mansion (" + (@Cost * $@blue_sage_cost) + " GP)", L_TravelBlueSage,
+        "Lost Island - Shop (" + (@Cost * $@lostisland_cost) + " GP)", L_TravelLostisland,
         "Who are the Travelers?", L_TravelTut,
         "I'm not interested.", L_TravelNo;
 
@@ -212,6 +215,15 @@ L_TravelCandor:
     set @NextLocationX, 69;
     set @NextLocationY, 69;
     goto L_TravelChecks;
+
+L_TravelLostisland:
+    set @NextLocationBit, $@lostisland_bit;
+    set @NextLocationCost, (@Cost  * $@lostisland_cost);
+    set @NextLocationMap$, "066-1";
+    set @NextLocationX, 106;
+    set @NextLocationY, 40;
+    goto L_TravelChecks;
+
 
 L_TravelNo:
     mes "["+@npcname$+"]";

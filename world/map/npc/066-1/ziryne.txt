@@ -1,0 +1,11 @@
+// This is a teleportation (warp) NPC. Its purpose is to offer expensive, fast trips throughout the world.
+// Author: Wombat, wushin
+// cost depending on level and adapted to new scripting guidelines: Jenalya
+
+066-1,106,41,0|script|Ziryne the Traveler|700
+{
+    set @npcname$, "Ziryne";
+    set @NpcTravelBit, $@lostisland_bit;
+    callfunc "Traveler";
+    end;
+}

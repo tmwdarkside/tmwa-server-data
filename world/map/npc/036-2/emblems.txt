@@ -22,6 +22,18 @@
   end;
 }
 
+036-2,33,27,0|script|#k2city3e|800
+{
+  end;
+  OnInit:
+    disablenpc "#k2city3e";
+  end;
+}
+036-2,33,27,0|script|#k2city3d|801
+{
+  end;
+}
+
 036-2,32,27,0|script|#k2sound|127
 {
   end;

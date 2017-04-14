@@ -1,0 +1,17 @@
+//53,40
+
+066-1,95,110,0|script|Soul Menhir#lostisland|500
+{
+    set @map$, "066-1";
+    setarray @Xs, 94, 95, 96, 94, 96, 94, 96;
+    setarray @Ys, 109, 109, 109, 110, 110, 111, 111;
+    set @x, 0;
+    set @y, 0;
+    callfunc "SoulMenhir";
+    set @map$, "";
+    cleararray @Xs[0], 0, 7;
+    cleararray @Ys[0], 0, 7;
+    set @x, 0;
+    set @y, 0;
+    close;
+}

@@ -1,0 +1,14 @@
+//
+
+1009-1,30,42,0|script|Pinac|600
+{
+    mes "[Pinac]";
+    mes "\"Wellcome Padrik!\"";
+    next;
+    mes "[Pinac]";
+    mes "\"Now you are in a parallel world where it is always night. In addition most of the houses or caves are closed except for some that allow you to enter just so you can rest.\"";
+    next;
+    mes "[Pinac]";
+    mes "\"To return to the other side you must cross the luminous circle that you will find below.\"";
+    close;
+}

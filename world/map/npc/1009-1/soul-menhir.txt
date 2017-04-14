@@ -1,0 +1,17 @@
+//
+
+1009-1,53,40,0|script|Soul Menhir#darkhurns|505
+{
+    set @map$, "1009-1";
+    setarray @Xs, 52, 53, 54, 52, 54, 52, 54;
+    setarray @Ys, 39, 39, 39, 40, 40, 41, 41;
+    set @x, 0;
+    set @y, 0;
+    callfunc "SoulMenhir";
+    set @map$, "";
+    cleararray @Xs[0], 0, 7;
+    cleararray @Ys[0], 0, 7;
+    set @x, 0;
+    set @y, 0;
+    close;
+}
