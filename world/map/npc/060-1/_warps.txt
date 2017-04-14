@@ -1,0 +1,5 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Mele Island warps
+
+060-1,6,37|warp|-1,-1,066-1,76,20
+060-1,36,8|warp|-1,-1,060-2,17,27

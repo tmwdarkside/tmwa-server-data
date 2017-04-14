@@ -1,0 +1,5 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Asphodel Moor warps
+
+1026-1,63,16|warp|-1,-1,1027-1,63,105
+1026-1,129,66|warp|-1,-1,1025-1,20,66

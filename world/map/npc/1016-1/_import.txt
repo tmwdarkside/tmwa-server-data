@@ -1,0 +1,6 @@
+// Map 1016-1: Dark Woodland
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 1016-1
+npc: npc/1016-1/_mobs.txt
+npc: npc/1016-1/_nodes.txt
+npc: npc/1016-1/_warps.txt

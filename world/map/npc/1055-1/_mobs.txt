@@ -1,0 +1,20 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Woodland Hills mobs
+
+1055-1,68,72,22,19|monster|ManaGhost|1125,16,9000ms,18000ms
+1055-1,87,29,55,14|monster|Silkworm|1035,15,10000ms,85000ms
+1055-1,79,30,84,17|monster|RedSpark|1081,10,9000ms,18000ms
+1055-1,0,0,0,0|monster|DemonicMouboo|1104,15,9000ms,18000ms
+1055-1,91,49,6,4|monster|CloverPatch|1037,1,10000ms,180000ms
+1055-1,103,54,5,3|monster|CloverPatch|1037,1,10000ms,180000ms
+1055-1,64,75,27,16|monster|CloverPatch|1037,1,10000ms,120000ms
+1055-1,80,34,82,25|monster|BlueSpark|1080,3,9000ms,18000ms
+1055-1,70,72,17,24|monster|AlizarinPlant|1032,2,10000ms,60000ms
+1055-1,81,32,81,22|monster|AlizarinPlant|1032,2,10000ms,60000ms
+1055-1,0,0,0,0|monster|MauvePlant|1029,7,10000ms,55000ms
+1055-1,0,0,0,0|monster|CobaltPlant|1030,3,10000ms,60000ms
+1055-1,0,0,0,0|monster|GambogePlant|1031,2,10000ms,60000ms
+1055-1,116,60,4,2|monster|BlueSpark|1080,1,9000ms,18000ms
+1055-1,97,60,4,2|monster|BlueSpark|1080,1,9000ms,18000ms
+1055-1,64,73,23,17|monster|TreasureBox|1718,1,9000ms,18000ms
+1055-1,0,0,0,0|monster|GreenSlimeMother|1118,1,9000ms,18000ms

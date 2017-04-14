@@ -1,0 +1,4 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Woodland warps
+
+1014-1,109,91|warp|-1,1,1011-1,31,61

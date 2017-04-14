@@ -1,0 +1,21 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Lost Island mobs
+
+066-1,98,134,7,5|monster|TheLost|1073,1,3000ms,0ms
+066-1,0,0,0,0|monster|AngrySeaSlime|1109,15,1500ms,0ms
+066-1,144,160,2,1|monster|ManaGhost|1125,1,3000ms,0ms
+066-1,133,36,3,1|monster|Mouboo|1028,4,300ms,0ms
+066-1,0,0,0,0|monster|Pinkie|1018,18,20ms,0ms
+066-1,0,0,0,0|monster|ManaBug|1131,18,30ms,0ms
+066-1,0,0,0,0|monster|Maggot|1002,30,30ms,0ms
+066-1,0,0,0,0|monster|MauvePlant|1029,2,27000ms,0ms
+066-1,0,0,0,0|monster|Silkworm|1035,2,60000ms,0ms
+066-1,0,0,0,0|monster|CloverPatch|1037,2,0ms,10000ms
+066-1,0,0,0,0|monster|ViciousSquirrel|1105,10,30ms,0ms
+066-1,0,0,0,0|monster|Butterfly|1055,10,30ms,0ms
+066-1,0,0,0,0|monster|Duck|1048,18,30ms,18000ms
+066-1,0,0,0,0|monster|GreenFairy|1761,3,5ms,18000ms
+066-1,0,0,0,0|monster|RedFairy|1740,3,5ms,18000ms
+066-1,0,0,0,0|monster|BlueFairy|1739,3,5ms,18000ms
+066-1,0,0,0,0|monster|Tritan|1756,3,5ms,18000ms
+066-1,0,0,0,0|monster|GenerousSpiky|1727,1,1ms,120000ms

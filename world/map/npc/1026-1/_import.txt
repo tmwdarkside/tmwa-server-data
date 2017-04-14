@@ -1,0 +1,7 @@
+// Map 1026-1: Dark Asphodel Moor
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 1026-1
+npc: npc/1026-1/_mobs.txt
+npc: npc/1026-1/_nodes.txt
+npc: npc/1026-1/_warps.txt
+npc: npc/1026-1/soul-menhir.txt

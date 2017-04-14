@@ -1,0 +1,4 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// No Name Cave warps
+
+065-2,102,86|warp|-1,-1,065-1,63,55

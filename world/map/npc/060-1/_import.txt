@@ -1,0 +1,7 @@
+// Map 060-1: Mele Island
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 060-1
+npc: npc/060-1/_mobs.txt
+npc: npc/060-1/_nodes.txt
+npc: npc/060-1/_warps.txt
+npc: npc/060-1/soul-menhir.txt

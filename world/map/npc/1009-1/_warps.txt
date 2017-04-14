@@ -1,0 +1,8 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Hurnscald warps
+
+1009-1,49,55|warp|2,-1,1008-1,78,81
+1009-1,97,36|warp|-1,0,1008-1,128,61
+1009-1,24,36|warp|-1,1,1008-1,53,61
+1009-1,49,24|warp|2,-1,1008-1,78,48
+1009-1,30,48|warp|-1,-1,009-1,30,48

@@ -1,0 +1,6 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// No Name Cave mobs
+
+065-2,95,66,133,71|monster|Bluepar|1107,15,9000ms,3000ms
+065-2,95,84,133,36|monster|GoldenScorpion|1224,7,10000ms,5000ms
+065-2,102,48,81,34|monster|SmokeDragon|1723,2,100000ms,50000ms

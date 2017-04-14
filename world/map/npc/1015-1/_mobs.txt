@@ -1,0 +1,13 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Woodland mobs
+
+1015-1,0,0,0,0|monster|CloverPatch|1037,2,100000ms,1000ms
+1015-1,0,0,0,0|monster|ManaGhost|1125,5,9000ms,18000ms
+1015-1,0,0,0,0|monster|ViciousSquirrel|1105,15,20ms,18000ms
+1015-1,0,0,0,0|monster|LavaSlime|1132,5,9000ms,18000ms
+1015-1,0,0,0,0|monster|Moonshroom|1130,7,9000ms,18000ms
+1015-1,0,0,0,0|monster|TreasureBox|1718,4,9000ms,18000ms
+1015-1,0,0,0,0|monster|GambogePlant|1031,5,0ms,0ms
+1015-1,0,0,0,0|monster|AlizarinPlant|1032,5,0ms,0ms
+1015-1,0,0,0,0|monster|WitchGuard|1103,1,9000ms,18000ms
+1015-1,0,0,0,0|monster|MauvePlant|1029,4,270000ms,180000ms

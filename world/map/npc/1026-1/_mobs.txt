@@ -1,0 +1,7 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Asphodel Moor mobs
+
+1026-1,0,0,0,0|monster|Zombie|1036,3,9000ms,18000ms
+1026-1,0,0,0,0|monster|PsiBrain|1126,1,9000ms,18000ms
+1026-1,0,0,0,0|monster|ManaGhost|1125,8,9000ms,18000ms
+1026-1,57,79,69,32|monster|FeyElement|1086,1,90000ms,18000ms

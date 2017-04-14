@@ -1,0 +1,8 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Lost Island warps
+
+066-1,93,38|warp|-1,-1,066-2,17,17
+066-1,181,17|warp|-1,-1,065-1,50,48
+066-1,76,20|warp|-1,-1,060-1,6,37
+066-1,170,15|warp|-1,-1,062-1,44,97
+066-1,82,20|warp|-1,-1,064-1,49,174

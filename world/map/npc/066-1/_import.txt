@@ -1,0 +1,9 @@
+// Map 066-1: Lost Island
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 066-1
+npc: npc/066-1/_mobs.txt
+npc: npc/066-1/_nodes.txt
+npc: npc/066-1/_warps.txt
+npc: npc/066-1/dock.txt
+npc: npc/066-1/soul-menhir.txt
+npc: npc/066-1/ziryne.txt

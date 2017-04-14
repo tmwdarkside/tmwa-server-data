@@ -1,0 +1,5 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// No Name Island warps
+
+065-1,63,55|warp|-1,-1,065-2,102,84
+065-1,50,48|warp|-1,-1,066-1,181,17

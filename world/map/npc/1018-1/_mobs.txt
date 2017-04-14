@@ -1,0 +1,29 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Woodland Mining Camp mobs
+
+1018-1,136,79,9,41|monster|BlackSlime|1719,5,9000ms,18000ms
+1018-1,108,87,53,25|monster|ManaGhost|1125,5,9000ms,18000ms
+1018-1,116,44,6,7|monster|LavaSlime|1132,3,9000ms,18000ms
+1018-1,119,56,13,6|monster|TreasureBox|1718,2,9000ms,19000ms
+1018-1,78,59,3,1|monster|FeyElement|1086,1,9000ms,18000ms
+1018-1,57,63,14,7|monster|Larvern|1087,2,9000ms,18000ms
+1018-1,43,63,31,28|monster|BallLightning|1070,1,9000ms,18000ms
+1018-1,134,39,18,10|monster|DemonicSpirit|1101,2,9000ms,18000ms
+1018-1,124,42,9,11|monster|DemonicSpirit|1101,2,9000ms,18000ms
+1018-1,124,19,22,9|monster|DemonicSpirit|1101,3,9000ms,18000ms
+1018-1,122,29,19,9|monster|DemonicSpirit|1101,2,9000ms,18000ms
+1018-1,149,45,10,8|monster|BlueSpark|1080,3,9000ms,18000ms
+1018-1,169,47,20,10|monster|RedSpark|1081,2,9000ms,19000ms
+1018-1,136,49,13,8|monster|Scythe|1069,1,9000ms,18000ms
+1018-1,166,49,13,9|monster|CloverPatch|1037,1,10000ms,30000ms
+1018-1,111,62,5,2|monster|Hyvern|1088,1,9000ms,18000ms
+1018-1,117,50,4,3|monster|SeaSlimeMother|1115,1,9000ms,18000ms
+1018-1,96,47,18,11|monster|LavaSlime|1132,1,9000ms,18000ms
+1018-1,106,52,15,6|monster|CobaltPlant|1030,1,240000ms,120000ms
+1018-1,78,55,37,6|monster|LavaSlime|1132,3,9000ms,18000ms
+1018-1,145,24,10,9|monster|LavaSlime|1132,3,9000ms,18000ms
+1018-1,68,89,14,17|monster|Scythe|1069,1,9000ms,18000ms
+1018-1,160,31,11,18|monster|LavaSlime|1132,2,9000ms,18000ms
+1018-1,0,0,0,0|monster|CloverPatch|1037,2,0ms,0ms
+1018-1,0,0,0,0|monster|ManaGhost|1125,10,9000ms,18000ms
+1018-1,134,80,14,39|monster|PsiBrain|1126,1,9000ms,18000ms

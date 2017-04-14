@@ -1,0 +1,4 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Lost Island Shop warps
+
+066-2,17,17|warp|-1,-1,066-1,93,40

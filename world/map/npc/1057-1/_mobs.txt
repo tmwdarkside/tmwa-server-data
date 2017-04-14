@@ -1,0 +1,21 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Woodland mobs
+
+1057-1,0,0,0,0|monster|MauvePlant|1029,5,45000ms,45000ms
+1057-1,0,0,0,0|monster|CobaltPlant|1030,3,10000ms,65000ms
+1057-1,0,0,0,0|monster|GambogePlant|1031,5,10000ms,45000ms
+1057-1,0,0,0,0|monster|AlizarinPlant|1032,7,10000ms,70000ms
+1057-1,0,0,0,0|monster|DemonicMouboo|1104,14,9000ms,18000ms
+1057-1,95,42,29,9|monster|ManaGhost|1125,3,9000ms,18000ms
+1057-1,25,48,11,46|monster|Silkworm|1035,7,10000ms,15000ms
+1057-1,99,40,22,16|monster|TreasureBox|1718,2,9000ms,18000ms
+1057-1,100,30,19,11|monster|RedSpark|1081,2,9000ms,18000ms
+1057-1,83,64,12,12|monster|BlueSpark|1080,2,9000ms,18000ms
+1057-1,59,34,8,11|monster|BlueSpark|1080,2,9000ms,18000ms
+1057-1,32,45,8,11|monster|RedSpark|1081,2,9000ms,18000ms
+1057-1,144,35,12,12|monster|BlueSpark|1080,2,9000ms,18000ms
+1057-1,104,67,12,11|monster|PinkFlower|1014,2,10000ms,45000ms
+1057-1,135,53,12,11|monster|PinkFlower|1014,2,10000ms,45000ms
+1057-1,0,0,0,0|monster|FeyElement|1086,1,9000ms,18000ms
+1057-1,0,0,0,0|monster|CloverPatch|1037,3,10000ms,180000ms
+1057-1,27,46,14,52|monster|ViciousSquirrel|1105,6,9000ms,18000ms

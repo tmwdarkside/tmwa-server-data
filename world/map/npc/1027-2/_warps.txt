@@ -1,0 +1,5 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Graveyard Indoor warps
+
+1027-2,36,111|warp|4,-1,1027-1,28,68
+1027-2,46,34|warp|-1,-1,1027-1,88,85

@@ -1,0 +1,8 @@
+// Map 1009-1: Dark Hurnscald
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 1009-1
+npc: npc/1009-1/_mobs.txt
+npc: npc/1009-1/_nodes.txt
+npc: npc/1009-1/_warps.txt
+npc: npc/1009-1/pinac.txt
+npc: npc/1009-1/soul-menhir.txt

@@ -1,0 +1,6 @@
+// Map 065-2: No Name Cave
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 065-2
+npc: npc/065-2/_mobs.txt
+npc: npc/065-2/_nodes.txt
+npc: npc/065-2/_warps.txt

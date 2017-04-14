@@ -1,0 +1,6 @@
+// Map 1027-2: Dark Graveyard Indoor
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 1027-2
+npc: npc/1027-2/_mobs.txt
+npc: npc/1027-2/_nodes.txt
+npc: npc/1027-2/_warps.txt

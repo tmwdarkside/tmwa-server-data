@@ -1,0 +1,4 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Pretty Island warps
+
+062-1,44,98|warp|-1,-1,066-1,170,15

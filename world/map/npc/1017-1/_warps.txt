@@ -1,0 +1,5 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Dark Woodland Hills warps
+
+1017-1,46,105|warp|2,-1,1013-1,45,21
+1017-1,188,104|warp|-1,-1,1055-1,74,21
