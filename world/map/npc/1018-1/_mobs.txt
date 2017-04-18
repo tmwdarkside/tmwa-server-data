@@ -1,10 +1,10 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Dark Woodland Mining Camp mobs
 
-1018-1,136,79,9,41|monster|BlackSlime|1719,5,9000ms,18000ms
+1018-1,136,79,9,41|monster|BlackSlime|1137,5,9000ms,18000ms
 1018-1,108,87,53,25|monster|ManaGhost|1125,5,9000ms,18000ms
 1018-1,116,44,6,7|monster|LavaSlime|1132,3,9000ms,18000ms
-1018-1,119,56,13,6|monster|TreasureBox|1718,2,9000ms,19000ms
+1018-1,119,56,13,6|monster|TreasureBox|1136,2,9000ms,19000ms
 1018-1,78,59,3,1|monster|FeyElement|1086,1,9000ms,18000ms
 1018-1,57,63,14,7|monster|Larvern|1087,2,9000ms,18000ms
 1018-1,43,63,31,28|monster|BallLightning|1070,1,9000ms,18000ms

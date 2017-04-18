@@ -1,7 +1,7 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // No Name Island mobs
 
-065-1,0,0,0,0|monster|TreasureBox|1718,4,2000ms,0ms
+065-1,0,0,0,0|monster|TreasureBox|1136,4,2000ms,0ms
 065-1,0,0,0,0|monster|ManaBug|1131,18,30ms,0ms
 065-1,0,0,0,0|monster|Maggot|1002,30,30ms,0ms
 065-1,0,0,0,0|monster|MauvePlant|1029,2,27000ms,0ms
@@ -9,5 +9,5 @@
 065-1,0,0,0,0|monster|CloverPatch|1037,2,0ms,0ms
 065-1,0,0,0,0|monster|ViciousSquirrel|1105,10,30ms,0ms
 065-1,0,0,0,0|monster|Butterfly|1055,10,30ms,0ms
-065-1,0,0,0,0|monster|AngelFemale|1793,5,5ms,18000ms
-065-1,0,0,0,0|monster|UkarWarrior|1759,1,1ms,18000ms
+065-1,0,0,0,0|monster|AngelFemale|1180,5,5ms,18000ms
+065-1,0,0,0,0|monster|UkarWarrior|1176,1,1ms,18000ms

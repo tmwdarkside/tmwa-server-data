@@ -2,7 +2,7 @@
 // Dark Hurnscald mobs
 
 1009-1,74,32,2,1|monster|CloverPatch|1037,1,10000ms,12000ms
-1009-1,29,44,9,13|monster|TreasureBox|1718,2,9000ms,18000ms
+1009-1,29,44,9,13|monster|TreasureBox|1136,2,9000ms,18000ms
 1009-1,88,51,15,4|monster|ViciousSquirrel|1105,2,9000ms,18000ms
 1009-1,80,38,5,5|monster|ViciousSquirrel|1105,1,9000ms,18000ms
 1009-1,0,0,0,0|monster|CopperSlime|1098,5,9000ms,18000ms

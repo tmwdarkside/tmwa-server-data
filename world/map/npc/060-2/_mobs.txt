@@ -1,4 +1,4 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Mele's Cave mobs
 
-060-2,0,0,0,0|monster|ScorpionMom|1736,1,1ms,3600000ms
+060-2,0,0,0,0|monster|ScorpionMom|1153,1,1ms,3600000ms

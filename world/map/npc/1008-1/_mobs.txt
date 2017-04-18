@@ -1,7 +1,7 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Dark Hurnscald Outskirts mobs
 
-1008-1,0,0,0,0|monster|TreasureBox|1718,4,9000ms,18000ms
+1008-1,0,0,0,0|monster|TreasureBox|1136,4,9000ms,18000ms
 1008-1,0,0,0,0|monster|Bluepar|1107,18,9000ms,18000ms
 1008-1,0,0,0,0|monster|ManaGhost|1125,18,9000ms,18000ms
 1008-1,0,0,0,0|monster|LavaSlime|1132,5,9000ms,18000ms

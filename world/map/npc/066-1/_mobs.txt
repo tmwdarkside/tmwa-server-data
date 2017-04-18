@@ -14,8 +14,8 @@
 066-1,0,0,0,0|monster|ViciousSquirrel|1105,10,30ms,0ms
 066-1,0,0,0,0|monster|Butterfly|1055,10,30ms,0ms
 066-1,0,0,0,0|monster|Duck|1048,18,30ms,18000ms
-066-1,0,0,0,0|monster|GreenFairy|1761,3,5ms,18000ms
-066-1,0,0,0,0|monster|RedFairy|1740,3,5ms,18000ms
-066-1,0,0,0,0|monster|BlueFairy|1739,3,5ms,18000ms
-066-1,0,0,0,0|monster|Tritan|1756,3,5ms,18000ms
-066-1,0,0,0,0|monster|GenerousSpiky|1727,1,1ms,120000ms
+066-1,0,0,0,0|monster|GreenFairy|1181,3,5ms,18000ms
+066-1,0,0,0,0|monster|RedFairy|1159,3,5ms,18000ms
+066-1,0,0,0,0|monster|BlueFairy|1158,3,5ms,18000ms
+066-1,0,0,0,0|monster|Tritan|1173,3,5ms,18000ms
+066-1,0,0,0,0|monster|GenerousSpiky|1143,1,1ms,120000ms

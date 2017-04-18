@@ -1,7 +1,7 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Dark Woodland Hills mobs
 
-1012-1,0,0,0,0|monster|TreasureBox|1718,4,9000ms,18000ms
+1012-1,0,0,0,0|monster|TreasureBox|1136,4,9000ms,18000ms
 1012-1,0,0,0,0|monster|Larvern|1087,12,9000ms,18000ms
 1012-1,0,0,0,0|monster|DemonicMouboo|1104,10,9000ms,18000ms
 1012-1,0,0,0,0|monster|MauvePlant|1029,5,2700000ms,1800000ms

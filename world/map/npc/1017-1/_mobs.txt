@@ -10,7 +10,7 @@
 1017-1,0,0,0,0|monster|VampireBat|1066,5,9000ms,18000ms
 1017-1,0,0,0,0|monster|BanditLord|1065,5,9000ms,18000ms
 1017-1,0,0,0,0|monster|DemonicMouboo|1104,5,9000ms,18000ms
-1017-1,0,0,0,0|monster|TreasureBox|1718,5,9000ms,18000ms
+1017-1,0,0,0,0|monster|TreasureBox|1136,5,9000ms,18000ms
 1017-1,0,0,0,0|monster|CopperSlime|1098,5,9000ms,18000ms
 1017-1,0,0,0,0|monster|Wolvern|1090,3,9000ms,18000ms
 1017-1,0,0,0,0|monster|AlizarinPlant|1032,3,0ms,0ms

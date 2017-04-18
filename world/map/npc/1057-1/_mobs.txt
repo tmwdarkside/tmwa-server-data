@@ -8,7 +8,7 @@
 1057-1,0,0,0,0|monster|DemonicMouboo|1104,14,9000ms,18000ms
 1057-1,95,42,29,9|monster|ManaGhost|1125,3,9000ms,18000ms
 1057-1,25,48,11,46|monster|Silkworm|1035,7,10000ms,15000ms
-1057-1,99,40,22,16|monster|TreasureBox|1718,2,9000ms,18000ms
+1057-1,99,40,22,16|monster|TreasureBox|1136,2,9000ms,18000ms
 1057-1,100,30,19,11|monster|RedSpark|1081,2,9000ms,18000ms
 1057-1,83,64,12,12|monster|BlueSpark|1080,2,9000ms,18000ms
 1057-1,59,34,8,11|monster|BlueSpark|1080,2,9000ms,18000ms

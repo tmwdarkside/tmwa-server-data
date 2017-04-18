@@ -1,4 +1,4 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Mele Island mobs
 
-060-1,46,35,7,5|monster|RedDragon|1722,1,300ms,90000ms
+060-1,46,35,7,5|monster|RedDragon|1140,1,300ms,90000ms

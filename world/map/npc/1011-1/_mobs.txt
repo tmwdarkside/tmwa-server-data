@@ -2,7 +2,7 @@
 // Dark Woodland mobs
 
 1011-1,0,0,0,0|monster|WickedMushroom|1106,5,0ms,0ms
-1011-1,0,0,0,0|monster|TreasureBox|1718,3,0ms,0ms
+1011-1,0,0,0,0|monster|TreasureBox|1136,3,0ms,0ms
 1011-1,0,0,0,0|monster|VampireBat|1066,10,0ms,0ms
 1011-1,0,0,0,0|monster|DemonicMouboo|1104,5,9000ms,18000ms
 1011-1,0,0,0,0|monster|MauvePlant|1029,3,270000ms,180000ms

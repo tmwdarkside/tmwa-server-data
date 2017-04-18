@@ -1,6 +1,6 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Cave of Pain mobs
 
-062-2,79,30,4,2|monster|LordScorpiuz|1799,1,100000ms,50000ms
+062-2,79,30,4,2|monster|LordScorpiuz|1200,1,100000ms,50000ms
 062-2,0,0,0,0|monster|CrotcherScorpion|1084,20,60000ms,30000ms
 062-2,0,0,0,0|monster|HuntsmanSpider|1083,20,60000ms,30000ms
