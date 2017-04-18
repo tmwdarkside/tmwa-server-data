@@ -1,4 +1,4 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// Woodland Hills nodes
+// Cave of Pain warps
 
-// (no nodes)
+062-2,98,75|warp|1,-1,062-1,142,51

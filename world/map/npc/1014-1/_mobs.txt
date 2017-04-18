@@ -1,4 +1,4 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Dark Woodland mobs
 
-1014-1,54,69,7,7|monster|Luvia|1102,1,90000ms,180000ms
+1014-1,54,69,7,7|monster|Bastax|1798,1,90000ms,180000ms

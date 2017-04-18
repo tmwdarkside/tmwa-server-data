@@ -1,0 +1,6 @@
+// Map 062-2: Cave of Pain
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 062-2
+npc: npc/062-2/_mobs.txt
+npc: npc/062-2/_nodes.txt
+npc: npc/062-2/_warps.txt
