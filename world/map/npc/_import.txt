@@ -135,3 +135,4 @@ import: npc/1027-2/_import.txt
 import: npc/1055-1/_import.txt
 import: npc/1057-1/_import.txt
 import: npc/botcheck/_import.txt
+import: npc/photoroom/_import.txt

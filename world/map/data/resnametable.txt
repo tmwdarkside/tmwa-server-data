@@ -133,3 +133,4 @@
 1055-1#1055-1.wlk#
 1057-1#1057-1.wlk#
 botcheck#botcheck.wlk#
+photoroom#photoroom.wlk#

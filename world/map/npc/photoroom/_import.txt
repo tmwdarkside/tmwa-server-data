@@ -1,0 +1,6 @@
+// Map photoroom: photoroom
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: photoroom
+npc: npc/photoroom/_mobs.txt
+npc: npc/photoroom/_nodes.txt
+npc: npc/photoroom/_warps.txt
