@@ -11,4 +11,4 @@
 1025-1,78,46,23,28|monster|DemonicSpirit|1101,1,9000ms,18000ms
 1025-1,73,84,38,16|monster|DemonicSpirit|1101,1,9000ms,18000ms
 1025-1,53,33,59,17|monster|DemonicSpirit|1101,1,9000ms,18000ms
-1025-1,54,34,0,0|monster|Assassin|1144,2,9000ms,18000ms
+1025-1,0,0,0,0|monster|Assassin|1144,2,9000ms,18000ms
