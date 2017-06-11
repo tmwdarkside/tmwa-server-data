@@ -14,4 +14,6 @@
 
 066-2,23,12,0|shop|Pandora|606,Halberd:*1,Axe:*1,BastardSword:*1,LongSword:*1,KidBook:*1,ToySabre:*1,Kanabo:*1,Gladius:*1,MiereAxe:*1,WhiteLaserStaff:*1,YellowLaserStaff:*1,GreenLaserStaff:*1,BlueLaserStaff:*1,RedLaserStaff:*1,PurpleLaserStaff:*1,BlackLaserStaff:*1,DeathScythe:*1
 
-066-2,3,12,0|shop|Arod|608,GrimaceOfDementia:*1,Lifestone:*1,PileOfAsh:*1,SulphurPowder:*1,IronPowder:*1
+066-2,31,13,0|shop|Erin|607,SaviorShield:*1,Buckler:*1,SaviorPants:*1,BlackMambaPants:*1,BlackMambaBoots:*1
+
+066-2,8,13,0|shop|Arod|608,GrimaceOfDementia:*1,Lifestone:*1,PileOfAsh:*1,SulphurPowder:*1,IronPowder:*1
