@@ -1,0 +1,8 @@
+//
+
+066-2,16,5,0|script|Chardo|609
+{
+    set @npcname$, "Chardo";
+    callfunc "Banker";
+    close;
+}
