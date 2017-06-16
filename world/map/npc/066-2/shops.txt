@@ -17,4 +17,4 @@
 
 066-2,31,13,0|shop|Erin|607,SaviorShield:*1,Buckler:*1,SaviorPants:*1,BlackMambaPants:*1,BlackMambaBoots:*1
 
-066-2,8,13,0|shop|Arod|608,GrimaceOfDementia:*1,Lifestone:*1,PileOfAsh:*1,SulphurPowder:*1,IronPowder:*1
+066-2,8,13,0|shop|Arod|608,GrimaceOfDementia:*1,Lifestone:*1,PileOfAsh:*1,SulphurPowder:*1,IronPowder:*1,Amethyst:*10,Sapphire:*10,IcedWater:*10,IcedCube:*10

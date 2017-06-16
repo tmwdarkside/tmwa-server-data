@@ -4,4 +4,5 @@ map: 066-2
 npc: npc/066-2/_mobs.txt
 npc: npc/066-2/_nodes.txt
 npc: npc/066-2/_warps.txt
+npc: npc/066-2/chardo.txt
 npc: npc/066-2/shops.txt
