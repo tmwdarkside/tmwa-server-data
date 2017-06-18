@@ -1,19 +1,44 @@
-
 function|script|ProcessWings
 {
-    set @torso, getequipid(equip_torso);
-    set @torsoC, 0;
-    set @torsoB, @torso;
-    if (@torsoB >= 2050 && @torsoB <= 2059) set @torsoB, 1202; // Cotton shirt
-    if (@torsoB >= 2060 && @torsoB <= 2069) set @torsoB, 624; // V Neck
-    if (@torsoB >= 2070 && @torsoB <= 2079) set @torsoB, 564; // T Neck
-    if (@torsoB >= 2080 && @torsoB <= 2089) set @torsoB, 720; // Silk Robe
-    if (@torsoB >= 2090 && @torsoB <= 2099) set @torsoB, 688; // Tanktop
-    if (@torsoB >= 2120 && @torsoB <= 2129) set @torsoB, 689; // Short tanktop
-    set @torsoC, cNone;
-    if (@torso == 1202 || @torso == 624 || @torso == 564 || @torso == 688 || @torso == 689 || @torso == 720)
-       set @torsoC, 1;
-       message strcharinfo(0), "Gah! That was some strong stuff!";
+    set @equipedtorso, getequipid(equip_torso);
+    set @wings, 0;
+    set @torsoitem, @equipedtorso;
 
+//Only few colored items are allowed
+//      if (!(@torsoitem >= 2050 && @torsoitem <= 2059)) && // Colored Cotton shirt
+//       (!(@torsoitem >= 2060 && @torsoitem <= 2069)) && // Colored V Neck
+//       (!(@torsoitem >= 2070 && @torsoitem <= 2079)) && // Colored T Neck
+//       (!(@torsoitem >= 2080 && @torsoitem <= 2089)) && // Colored Silk Robe
+//       (!(@torsoitem >= 2090 && @torsoitem <= 2099)) && // Colored Tanktop
+//       (!(@torsoitem >= 2120 && @torsoitem <= 2129))  goto L_Wings; // Short tanktop
+
+//Only Savior armor and Capes are incompatible
+    if (@torsoitem == 8029) ||
+       (@torsoitem == 8000) ||
+       (@torsoitem == 8001) ||
+       (@torsoitem == 8002) ||
+       (@torsoitem == 8003) ||
+       (@torsoitem == 8055) ||
+       (@torsoitem == 8056) ||
+       (@torsoitem == 8057) ||
+       (@torsoitem == 8058) ||
+       (@torsoitem == 8059) ||
+       (@torsoitem == 8060) ||
+       (@torsoitem == 3390)   goto L_Wings;
+       goto L_Return;
+
+L_Wings:
+   set @wings, 1;
+   goto L_Unequip;
+
+L_Unequip:
+  message strcharinfo(0), "Ñas! The wings are not compatibles with that torso equiment!";
+  callfunc "UnequipLater";
+  
+  goto L_Return;
+
+L_Return:
+// message strcharinfo(0), "Torso equipment: " + @torsoitem + " Wings value: " + @wings;
     return;
+
 }
