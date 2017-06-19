@@ -1,18 +1,24 @@
+// Valc
+// Code based on the Old Woman script than revise our equipment.
+// This sample allow unequip items when there is incompatibility beteewn them.
+// Capes and wings equiped at same time is very ugly, so, here the sample to avoid this combo.
+
+
 function|script|ProcessWings
 {
     set @equipedtorso, getequipid(equip_torso);
-    set @wings, 0;
+    set @wings, 1;
     set @torsoitem, @equipedtorso;
 
-//Only few colored items are allowed
-//      if (!(@torsoitem >= 2050 && @torsoitem <= 2059)) && // Colored Cotton shirt
-//       (!(@torsoitem >= 2060 && @torsoitem <= 2069)) && // Colored V Neck
-//       (!(@torsoitem >= 2070 && @torsoitem <= 2079)) && // Colored T Neck
-//       (!(@torsoitem >= 2080 && @torsoitem <= 2089)) && // Colored Silk Robe
-//       (!(@torsoitem >= 2090 && @torsoitem <= 2099)) && // Colored Tanktop
-//       (!(@torsoitem >= 2120 && @torsoitem <= 2129))  goto L_Wings; // Short tanktop
+//Only few colored items are allowed (commented to show an alternative use)
+//  if (!(@torsoitem >= 2050 && @torsoitem <= 2059)) && // Colored Cotton shirt
+//     (!(@torsoitem >= 2060 && @torsoitem <= 2069)) && // Colored V Neck
+//     (!(@torsoitem >= 2070 && @torsoitem <= 2079)) && // Colored T Neck
+//     (!(@torsoitem >= 2080 && @torsoitem <= 2089)) && // Colored Silk Robe
+//     (!(@torsoitem >= 2090 && @torsoitem <= 2099)) && // Colored Tanktop
+//     (!(@torsoitem >= 2120 && @torsoitem <= 2129))  goto L_Wings; // Short tanktop
 
-//Only Savior armor and Capes are incompatible
+//Only Savior armor and Capes are incompatible with wings
     if (@torsoitem == 8029) ||
        (@torsoitem == 8000) ||
        (@torsoitem == 8001) ||
@@ -25,20 +31,22 @@ function|script|ProcessWings
        (@torsoitem == 8059) ||
        (@torsoitem == 8060) ||
        (@torsoitem == 3390)   goto L_Wings;
-       goto L_Return;
+
+    goto L_Return;
 
 L_Wings:
-   set @wings, 1;
+   //To handle wings stuff before unequip it.
+   set @wings, 0;
    goto L_Unequip;
 
 L_Unequip:
+  //Unequip it showing a message from the char.
   message strcharinfo(0), "Ñas! The wings are not compatibles with that torso equiment!";
   callfunc "UnequipLater";
-  
   goto L_Return;
 
 L_Return:
+// Next line is only to test the equiped item ID, so this is usualy commented.
 // message strcharinfo(0), "Torso equipment: " + @torsoitem + " Wings value: " + @wings;
-    return;
-
+  return;
 }
