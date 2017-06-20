@@ -12,3 +12,10 @@
 064-2,113,115,1,6|monster|LavaSlime|1132,3,9000ms,18000ms
 064-2,109,92,7,1|monster|LavaSlime|1132,3,9000ms,18000ms
 064-2,91,120,1,7|monster|LavaSlime|1132,3,9000ms,18000ms
+064-2,24,33,1,1|monster|DarkDragon|1226,1,100000ms,50000ms
+064-2,54,21,1,1|monster|DarkDragon|1226,1,100000ms,50000ms
+064-2,170,14,1,1|monster|DarkDragon|1226,1,100000ms,50000ms
+064-2,170,39,1,1|monster|DarkDragon|1226,1,100000ms,50000ms
+064-2,96,60,1,1|monster|FireSkullLord|1146,1,9000ms,18000ms
+064-2,97,85,41,1|monster|TerraniteMask|1145,3,9000ms,18000ms
+064-2,109,97,1,1|monster|Reaper|1068,1,9000ms,18000ms

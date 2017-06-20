@@ -91,6 +91,23 @@
 // Summons up to 2 Demonic Spirits
 1140,RedDragon@NPC_SUMMONSLAVE_demonicspiritX2,any,198,2,10000,10,5000,no,self,slavelt,2,1101,0,0,0,0,
 
+// Green Dragon skills
+// Summons up to 2 Demonic Spirits and mambas
+1134,GreenDragon@NPC_SUMMONSLAVE_demonicspiritX2,any,198,2,10000,10,5000,no,self,slavelt,2,1101,0,0,0,0,
+1134,GreenDragon@NPC_SUMMONSLAVE_blackmambaX2,any,198,2,10000,2000,15000,no,self,myhpltmaxrate,25,1139,3,0,0,0,
+
+// Fafi Dragon skills
+// Summons up to 2 Demonic Spirits and mambas
+1138,FafiDragon@NPC_SUMMONSLAVE_demonicspiritX2,any,198,2,10000,10,5000,no,self,slavelt,2,1101,0,0,0,0,
+1138,FafiDragon@NPC_SUMMONSLAVE_blackmambaX2,any,198,2,10000,2000,15000,no,self,myhpltmaxrate,25,1139,3,0,0,0,
+
+// Dark Dragon skills
+// Summons up to 2 Blueslimes and balls
+1226,DarkDragon@NPC_SUMMONSLAVE_ballX1,any,198,1,8000,1000,5000,no,self,slavelt,1,1070,0,0,0,0,
+1226,DarkDragon@NPC_SUMMONSLAVE_SlimeBlastX3,any,198,2,10000,10,5000,no,self,slavelt,7,1092,0,0,0,0,
+1070,BallLightning@NPC_SELFDESTRUCTION,attack,175,1,10000,100,500,yes,self,notintown,0,30,0,0,0,0,
+1092,SlimeBlast@NPC_SELFDESTRUCTION,attack,175,1,10000,100,500,yes,self,notintown,0,30,0,0,0,0,
+
 // Smoke Dragon skills
 // Summons lots of Black Scorpions and a few Black Mambas when low on health
 1141,SmokeDragon@NPC_SUMMONSLAVE_blackscorpionX5,any,198,4,10000,100,12000,no,self,slavele,13,1009,0,0,0,0,
