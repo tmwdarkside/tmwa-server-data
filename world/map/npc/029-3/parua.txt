@@ -291,12 +291,14 @@ L_MOB1:
     set $@MOB_1_SUMMON, $@MOB_1_SUMMON + 1;
     set $@FIGHT_CAVE_POINTS, $@FIGHT_CAVE_POINTS - 243;
     areamonster "029-3", 20, 20, 70, 60, "", 1022, 1, "Parua::OnPetDeath";
+    areamonster "029-3", 20, 20, 70, 60, "", 1172, 1, "Parua::OnPetDeath";
     goto L_Summon;
 
 L_MOB2:
     set $@MOB_2_SUMMON, $@MOB_2_SUMMON + 1;
     set $@FIGHT_CAVE_POINTS, $@FIGHT_CAVE_POINTS - 81;
     areamonster "029-3", 20, 20, 70, 60, "", 1045, 1, "Parua::OnPetDeath";
+    areamonster "029-3", 20, 20, 70, 60, "", 1132, 1, "Parua::OnPetDeath";
     goto L_Summon;
 
 L_MOB3:
@@ -309,18 +311,21 @@ L_MOB4:
     set $@MOB_4_SUMMON, $@MOB_4_SUMMON + 1;
     set $@FIGHT_CAVE_POINTS, $@FIGHT_CAVE_POINTS - 9;
     areamonster "029-3", 20, 20, 70, 60, "", 1043, 1, "Parua::OnPetDeath";
+    areamonster "029-3", 20, 20, 70, 60, "", 1139, 1, "Parua::OnPetDeath";
     goto L_Summon;
 
 L_MOB5:
     set $@MOB_5_SUMMON, $@MOB_5_SUMMON + 1;
     set $@FIGHT_CAVE_POINTS, $@FIGHT_CAVE_POINTS - 3;
     areamonster "029-3", 20, 20, 70, 60, "", 1010, 1, "Parua::OnPetDeath";
+   areamonster "029-3", 20, 20, 70, 60, "", 1144, 1, "Parua::OnPetDeath";
     goto L_Summon;
 
 L_MOB6:
     set $@MOB_6_SUMMON, $@MOB_6_SUMMON + 1;
     set $@FIGHT_CAVE_POINTS, $@FIGHT_CAVE_POINTS - 1;
     areamonster "029-3", 20, 20, 70, 60, "", 1008, 1, "Parua::OnPetDeath";
+    areamonster "029-3", 20, 20, 70, 60, "", 1196, 1, "Parua::OnPetDeath";
     goto L_Summon;
 
 // Called on each player once every 5 seconds
