@@ -13,7 +13,7 @@
     mes "\"Hello.\"";
     next;
     mes "[Waaaaar]";
-    mes "\"Do you dare challenge the hight power that sleeps here?\"";
+    mes "\"(Hard mode) Do you dare challenge the hight power that sleeps here?\"";
     menu "No, I'll let it sleep.", L_Exit,
          "Ha! What's the worst it could do?", L_Next,
          "What is this place anyway?", L_Explain,
@@ -74,7 +74,7 @@ L_AcceptHelp:
         "In 5 minutes.", L_TimeFightStart,
         "In 10 minutes.", L_TimeFightStart,
         "In 15 minutes.", L_TimeFightStart,
-        "I don't want to wait. Let's start it now!", L_Paying;
+        "I don't want to wait. Let's start it now and Waaaaaaaaaaaaaar!", L_Paying;
 
 L_TimeFightStart:
 // Do not charge the money if the fight or the announces were already started by someone else
