@@ -142,6 +142,7 @@ OnTimer5500:
     misceffect FX_EVIL_SUMMON;
     misceffect FX_CHANNELLING_CAST;
     monster "052-2", $@illia_luvia_x, $@illia_luvia_y, "", 1102, 1, "#LuviaDaemon::OnDeath";
+    monster "052-2", $@illia_luvia_x, $@illia_luvia_y, "", 1068, 1, "#LuviaDaemon::OnWGD";
     set $@illia_luvia_x, 0;
     set $@illia_luvia_y, 0;
     end;

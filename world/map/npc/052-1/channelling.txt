@@ -41,6 +41,7 @@ L_PushBack:
 
 OnCommandDS:
     areamonster "052-1", 56, 30, 60, 31, "", 1101, 2 + rand(3), "#Enchanted Door::OnSpawn";
+    areamonster "052-1", 56, 30, 60, 31, "", 1092, 2 + rand(3), "#Enchanted Door::OnSpawn";
     misceffect FX_EVIL_SUMMON;
     end;
 

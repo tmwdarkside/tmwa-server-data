@@ -256,6 +256,7 @@ OnTimer77000:
     misceffect FX_EVIL_SUMMON;
     callsub S_GetHeroRect;
     areamonster "052-2", $@illia_lobby_x1, $@illia_lobby_y1, $@illia_lobby_x2, $@illia_lobby_y2, "", 1101, 42 + 16 - 480/(30+$Illia_Luvia_Harvest), "Luvia?::OnDSDeath";
+    areamonster "052-2", $@illia_lobby_x1, $@illia_lobby_y1, $@illia_lobby_x2, $@illia_lobby_y2, "", 1132, 5, "Luvia?::OnDSDeath";
     callsub S_ClearHeroRect;
     // That was the last spawn: reset the timer to start the CheckInvoke loop.
     set $@illia_level_5_progress, 5;
@@ -289,6 +290,7 @@ OnTimer18500:
     misceffect FX_MAGIC_DARK_EXPLOSION;
     callsub S_GetHeroRect;
     areamonster "052-2", $@illia_lobby_x1, $@illia_lobby_y1, $@illia_lobby_x2, $@illia_lobby_y2, "", 1103, 8 + (16 - 480/(30+$Illia_Luvia_Harvest))/3, "Luvia?::OnWGDeath";
+areamonster "052-2", $@illia_lobby_x1, $@illia_lobby_y1, $@illia_lobby_x2, $@illia_lobby_y2, "", 1068, 1, "Luvia?::OnWGDeath";
     callsub S_ClearHeroRect;
     end;
 
