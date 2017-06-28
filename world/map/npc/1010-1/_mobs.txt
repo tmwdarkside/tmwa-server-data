@@ -14,3 +14,5 @@
 1010-1,0,0,0,0|monster|CloverPatch|1037,2,0ms,1000ms
 1010-1,0,0,0,0|monster|ViciousSquirrel|1105,15,9000ms,18000ms
 1010-1,0,0,0,0|monster|ManaGhost|1125,10,9000ms,18000ms
+1010-1,0,0,0,0|monster|AlizarinGhost|1168,2,9000ms,18000ms
+1010-1,0,0,0,0|monster|GambogeGhost|1169,2,9000ms,18000ms

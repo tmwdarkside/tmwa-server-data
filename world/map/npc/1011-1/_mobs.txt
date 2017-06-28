@@ -14,3 +14,6 @@
 1011-1,0,0,0,0|monster|DemonicMouboo|1104,5,9000ms,18000ms
 1011-1,1,1,0,0|monster|Larvern|1087,18,9000ms,18000ms
 1011-1,92,44,35,28|monster|VampireBat|1066,10,9000ms,18000ms
+1011-1,0,0,0,0|monster|WhiteGolem|1161,2,9000ms,18000ms
+1011-1,0,0,0,0|monster|GoldenGolem|1162,2,9000ms,18000ms
+1011-1,0,0,0,0|monster|DarkGolem|1163,2,9000ms,18000ms

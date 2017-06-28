@@ -10,3 +10,6 @@
 1008-1,0,0,0,0|monster|CloverPatch|1037,2,0ms,1000ms
 1008-1,0,0,0,0|monster|ViciousSquirrel|1105,10,9000ms,18000ms
 1008-1,0,0,0,0|monster|CopperSlime|1098,5,9000ms,18000ms
+1008-1,0,0,0,0|monster|WhiteGhost|1165,2,9000ms,18000ms
+1008-1,0,0,0,0|monster|CobaltGhost|1166,2,9000ms,18000ms
+1008-1,0,0,0,0|monster|MauveGhost|1167,2,9000ms,18000ms

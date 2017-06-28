@@ -16,3 +16,5 @@
 1027-1,70,64,31,21|monster|RedBone|1074,5,9000ms,18000ms
 1027-1,104,64,31,20|monster|GeneralTerogan|1129,1,9000ms,180000ms
 1027-1,104,64,31,21|monster|RedBone|1074,6,9000ms,18000ms
+1027-1,94,24,51,4|monster|FallenLord|1172,5,9000ms,18000ms
+1027-1,122,36,7,12|monster|FallenLord|1172,1,9000ms,18000ms
