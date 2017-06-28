@@ -1,7 +1,7 @@
 // Waaaaar's fight
 029-3,44,25,0|script|Waaaaar|802
 {
-    set $@candor_npctalk$, "The dungeon is now ready for its next victims.";
+    set $@candor_npctalk$, "The dungeon is now ready for its next victims. No one will survive!!";
     donpcevent "#CandorAnnouncer::OnCommandTalk";
     set @FIGHT_CAVE_COST, 20000;
     set @FIGHT_CAVE_COST$, "20,000";
@@ -142,7 +142,7 @@ L_Explain:
     next;
     mes "\"To change me back expensive ingredients for a curing potion are required.\"";
     next;
-    mes "\"Pay me and I will use my dark astral magic to summon the undead. If you survive you will receive 100 Boss Points.\"";
+    mes "\"Pay me and I will use my dark astral magic to summon the undead. If you survive you will receive 200 Boss Points.\"";
     menu
         "I need to think about this.", L_Exit,
         "I'm interested.", L_Next,
