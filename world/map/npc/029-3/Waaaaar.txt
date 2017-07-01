@@ -290,7 +290,7 @@ L_Fifteen_Minutes:
 L_MOB1:
     set $@MOB_1_SUMMON, $@MOB_1_SUMMON + 1;
     set $@FIGHT_CAVE_POINTS, $@FIGHT_CAVE_POINTS - 243;
-    areamonster "029-3", 20, 20, 70, 60, "", 1034, 1, "Waaaaar::OnPetDeath";
+    areamonster "029-3", 20, 20, 70, 60, "", 1134, 1, "Waaaaar::OnPetDeath";
     goto L_Summon;
 
 L_MOB2:
