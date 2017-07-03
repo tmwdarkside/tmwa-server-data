@@ -6,13 +6,13 @@
 
 function|script|ProcessHearts
 {
-    set @equipedweapon, getequipid(equip_2hand);
+    set @equipedweapon, getequipid(equip_hand2);
     set @weapon, 1;
     set @weaponitem, @equipedweapon;
 
 
 //Only Banshee Bow is compatible with Dark Necklace
-    if (@weaponitem <> 878) goto L_Weapon;
+    if (@weaponitem != 878) goto L_Weapon;
 
     goto L_Return;
 
