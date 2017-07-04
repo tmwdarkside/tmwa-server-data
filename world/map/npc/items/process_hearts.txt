@@ -1,7 +1,7 @@
 // Valc
 // Code based on the Old Woman script than revise our equipment.
-// This sample allow unequip items when there is incompatibility beteewn them.
-// Dark Necknale require Banshee Bow equiped or no luck.
+// This sample allow unequip items when there is not compatibility beteewn them.
+// Dark Necknale require Banshee Bow equiped or no way.
 
 
 function|script|ProcessHearts
@@ -23,12 +23,12 @@ L_Weapon:
 
 L_Unequip:
   //Unequip it showing a message from the char.
-  message strcharinfo(0), "Utch! Where is my Banshee Bow!";
+  message strcharinfo(0), "Utch! I need have equiped the Banshee Bow. Where is my Banshee Bow!!!!";
   callfunc "UnequipLater";
   goto L_Return;
 
 L_Return:
 // Next line is only to test the equiped item ID, so this is usualy commented.
- message strcharinfo(0), "Weapon equipment: " + @weaponitem + " Weapon value: " + @weapon;
+// message strcharinfo(0), "Weapon equipment: " + @weaponitem + " Weapon value: " + @weapon;
   return;
 }
