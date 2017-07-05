@@ -1,0 +1,6 @@
+// Map 065-3: Somber Cave
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 065-3
+npc: npc/065-3/_mobs.txt
+npc: npc/065-3/_nodes.txt
+npc: npc/065-3/_warps.txt

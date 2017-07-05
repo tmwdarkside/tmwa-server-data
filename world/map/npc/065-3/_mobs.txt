@@ -1,0 +1,17 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Somber Cave mobs
+
+065-3,81,91,3,3|monster|DarkSkeleton|1225,2,0ms,20000ms
+065-3,37,61,3,3|monster|DarkSkeleton|1225,2,0ms,20000ms
+065-3,45,114,3,3|monster|DarkSkeleton|1225,2,0ms,20000ms
+065-3,0,0,0,0|monster|LavaSlime|1132,8,10000ms,0ms
+065-3,0,0,0,0|monster|DarkSkeleton|1225,30,20ms,0ms
+065-3,75,53,3,3|monster|FireSkull|1023,1,0ms,10000ms
+065-3,115,116,4,4|monster|FireSkull|1023,1,0ms,10000ms
+065-3,0,0,0,0|monster|EvilMushroom|1013,10,20ms,0ms
+065-3,39,57,43,76|monster|LavaSlime|1132,12,10000ms,0ms
+065-3,96,46,68,54|monster|LavaSlime|1132,10,10000ms,0ms
+065-3,88,84,53,21|monster|LavaSlime|1132,5,10000ms,0ms
+065-3,123,100,14,52|monster|SeaSlimeMother|1115,4,10000ms,0ms
+065-3,66,111,97,30|monster|SeaSlimeMother|1115,11,10000ms,0ms
+065-3,74,72,112,107|monster|BlackMamba|1139,9,15000ms,0ms

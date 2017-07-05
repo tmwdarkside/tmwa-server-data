@@ -114,6 +114,7 @@ import: npc/064-1/_import.txt
 import: npc/064-2/_import.txt
 import: npc/065-1/_import.txt
 import: npc/065-2/_import.txt
+import: npc/065-3/_import.txt
 import: npc/066-1/_import.txt
 import: npc/066-2/_import.txt
 import: npc/1007-1/_import.txt

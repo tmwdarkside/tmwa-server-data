@@ -1,5 +1,4 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// No Name Cave warps
+// Somber Cave warps
 
-065-2,102,86|warp|-1,-1,065-1,63,55
-065-2,77,50|warp|-1,-1,065-3,114,23
+065-3,114,23|warp|-1,-1,065-2,77,50
