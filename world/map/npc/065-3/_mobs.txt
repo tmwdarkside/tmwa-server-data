@@ -12,6 +12,6 @@
 065-3,39,57,43,76|monster|LavaSlime|1132,12,10000ms,0ms
 065-3,96,46,68,54|monster|LavaSlime|1132,10,10000ms,0ms
 065-3,88,84,53,21|monster|LavaSlime|1132,5,10000ms,0ms
-065-3,123,100,14,52|monster|SeaSlimeMother|1115,4,10000ms,0ms
-065-3,66,111,97,30|monster|SeaSlimeMother|1115,11,10000ms,0ms
+065-3,123,100,14,52|monster|LavaSlime|1132,4,10000ms,0ms
+065-3,66,111,97,30|monster|LavaSlime|1132,11,10000ms,0ms
 065-3,74,72,112,107|monster|BlackMamba|1139,9,15000ms,0ms
