@@ -3,8 +3,8 @@
 067-1,160,83,0|script|Soul Menhir#secret|507
 {
     set @map$, "067-1";
-    setarray @Xs, 169, 169, 169, 170, 170, 171, 171;
-    setarray @Ys, 84, 85, 86, 84, 86, 84, 86;
+    setarray @Xs, 160, 160, 160, 161, 160, 161, 161;
+    setarray @Ys, 83, 84, 83, 84, 83, 84, 83;
     set @x, 0;
     set @y, 0;
     callfunc "SoulMenhir";
