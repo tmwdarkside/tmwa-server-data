@@ -8,3 +8,5 @@
 067-1,91,60,153,95|monster|YellowSlime|1007,15,12000ms,3000ms
 067-1,91,56,153,86|monster|CloverPatch|1037,2,25000ms,15000ms
 067-1,91,60,153,95|monster|Mouboo|1028,3,12000ms,4000ms
+067-1,73,73,2,2|monster|SmokeDragon|1141,1,100000ms,5000ms
+067-1,57,84,2,2|monster|FafiDragon|1138,1,100000ms,5000ms
