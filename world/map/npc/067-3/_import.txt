@@ -5,3 +5,4 @@ npc: npc/067-3/_mobs.txt
 npc: npc/067-3/_nodes.txt
 npc: npc/067-3/_warps.txt
 npc: npc/067-3/shops.txt
+npc: npc/067-3/soul-menhir.txt
