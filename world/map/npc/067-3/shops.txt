@@ -2,4 +2,4 @@
 
 067-3,31,25,0|shop|Bazax|610,ChickenLeg:*1,BottleOfWater:*1,IronPotion:*1,ConcentrationPotion:*1
 
-067-3,36,25,0|shop|Molex|611,Arrow:*0.5,IronArrow:*0.5,BoneArrow:*0.5
+067-3,36,25,0|shop|Molex|611,Arrow:*1,IronArrow:*1,BoneArrows:*1,TerraniteArrow:*1
