@@ -1,3 +1,10 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Skull Cave mobs
 
+067-2,0,0,0,0|monster|LavaSlime|1132,1,12000ms,4000ms
+067-2,79,63,1,1|monster|FireSkullLord|1146,3,12000ms,4000ms
+067-2,61,63,1,1|monster|FireSkullLord|1146,3,12000ms,4000ms
+067-2,62,42,1,1|monster|FireSkullLord|1146,3,12000ms,4000ms
+067-2,78,42,1,1|monster|FireSkullLord|1146,3,12000ms,4000ms
+067-2,70,59,1,1|monster|FireSkullLord|1146,3,12000ms,4000ms
+067-2,70,44,2,1|monster|GoldenSkull|1227,1,12000ms,4000ms

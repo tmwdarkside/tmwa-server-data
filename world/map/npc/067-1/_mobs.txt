@@ -2,7 +2,7 @@
 // Secret Island mobs
 
 067-1,120,68,92,43|monster|GoldenScorpion|1224,7,10000ms,5000ms
-067-1,98,47,93,65|monster|BlackMamba|1139,25,20000ms,10000ms
+067-1,98,47,93,65|monster|BlackMamba|1139,50,20000ms,10000ms
 067-1,98,47,93,65|monster|BlackSlime|1137,10,15000ms,10000ms
 067-1,91,60,153,95|monster|RedSlime|1008,12,12000ms,4000ms
 067-1,91,60,153,95|monster|YellowSlime|1007,15,12000ms,3000ms
