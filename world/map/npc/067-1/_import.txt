@@ -1,0 +1,6 @@
+// Map 067-1: Secret Island
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 067-1
+npc: npc/067-1/_mobs.txt
+npc: npc/067-1/_nodes.txt
+npc: npc/067-1/_warps.txt

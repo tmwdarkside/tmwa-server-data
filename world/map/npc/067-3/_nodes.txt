@@ -1,0 +1,7 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Secret Island House nodes
+
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Secret_Island_Indoor nodes
+
+// (no nodes)

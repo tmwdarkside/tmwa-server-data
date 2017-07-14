@@ -1,0 +1,6 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Secret Island warps
+
+067-1,94,89|warp|-1,-1,067-2,70,78
+067-1,164,105|warp|-1,-1,066-1,103,21
+067-1,73,24|warp|-1,-1,067-3,33,34

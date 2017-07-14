@@ -1,0 +1,6 @@
+// Map 067-2: Skull Cave
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+map: 067-2
+npc: npc/067-2/_mobs.txt
+npc: npc/067-2/_nodes.txt
+npc: npc/067-2/_warps.txt
