@@ -19,7 +19,7 @@
 630,    ShroomHat,                      5,      1000000,   500000,      100,         0,     25,     0,      0,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bInt, 10;}
 633,    ChristmasElfHat,                5,      1000000,   500000,      100,         0,     25,     0,      0,    0,      2,      256,        0,      0,      0,      {},                                                                     {}
 634,    FaceMask,                       5,      1000000,   500000,      100,         0,     25,     0,      0,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bAgi, 10;}
-636,    WarlordHelmet,                  5,      30000,       3000,     900,         0,      18,     0,      -36,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
+636,    WarlordHelmet,                  5,      30000,       3000,     900,         0,      18,     0,      -36,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
 637,    KnightsHelmet,                  5,      20000,       2000,     600,         0,      15,     0,      -30,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bStr, 10;}
 638,    InfantryHelmet,                 5,      15000,       1500,     400,         0,      15,     0,      -30,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bMdef, 5; bonus bStr, 5;}
 639,    CrusadeHelmet,                  5,      25000,       2500,    1300,         0,      18,     0,      -36,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bStr, 10;}
@@ -33,20 +33,20 @@
 678,    NohMask,                        5,      7000,        1000,      18,         0,      25,      0,      1,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bAgi, 10;}
 679,    DemonMask,                      5,      10000,       5000,      23,         0,      25,      0,      5,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bAgi, 10;}
 //ID,   Name___________________,        Type,   Price,      Sell,       Weight,     ATK,    DEF,    Range,  Mbonus, Slot,   Gender, Loc,        wLV,    eLV,    View,   {UseScript},                                                            {EquipScript}
-3069,   GoldenDragonHelm, 5, 60000000, 1, 2250, 0, 0, 0, 0, 0, 2, 256, 0, 127, 0,{},{bonus bMaxHP, 150; bonus bMdef, 150; bonus bStr, 20; bonus bAgi, 20; bonus bVit, 20;  bonus bInt, 20; bonus bDex, 20; bonus bLuk, 20;}
-721,    HighPriestCrown, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bInt, 10;}
+3069,   GoldenDragonHelm, 5, 60000000, 1, 2250, 0, 0, 0, 0, 0, 2, 256, 0, 127, 0,{},{bonus bMaxHP, 150; bonus bMdef, 10; bonus bStr, 20; bonus bAgi, 20; bonus bVit, 20;  bonus bInt, 20; bonus bDex, 20; bonus bLuk, 20;}
+721,    HighPriestCrown, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bInt, 10;}
 722,    MonsterSkullHelmet,             5,      3000000,   1500000,      300,         0,     45,     0,      0,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bAgi, 10;}
 723,    DesertHat,                      5,      2400,         600,      20,         0,      3,      0,      -1,     0,      2,      256,        0,      0,      0,      {},                                                                     {}
 724,    CottonHeadband,                 5,      3000,         500,       5,         0,      2,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {}
 725,    GMCap,                          5,      2000,         500,      20,         0,      5,      0,      5,      0,      2,      256,        0,      0,      0,      {},                                                                     {callfunc "RestrictedItem";}
 751,    PinkieHat,                      5,      5000,        1000,       5,          0,      1,      0,      1,      0,      2,      256,        0,      0,      0,      {},                                                                     {}
 752,    FluffyHat,                      5,      7000,        2000,       10,        0,      2,      0,      -5,     0,      2,      256,        0,      0,      0,      {},                                                                     {}
-759,    PaladinsHelmet,                 5,      3000000,    1500000,      200,      0,      50,     0,      0,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-760,    OverlordsHelmet, 5, 3000000, 1500000, 1800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-761,    DesertHelmet,                   5,      3000000,    1500000,      200,      0,      45,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
+759,    PaladinsHelmet,                 5,      3000000,    1500000,      200,      0,      50,     0,      0,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+760,    OverlordsHelmet, 5, 3000000, 1500000, 1800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+761,    DesertHelmet,                   5,      3000000,    1500000,      200,      0,      45,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
 764,    SailorHat,                      5,      1000000,    500000,       20,          0,      15,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
 765,    CaptainsHat,                    5,      1000000,    500000,       20,          0,      20,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
-766,    TerraniteHelmet,                5,      30000,      3000,       300,        0,      15,     0,      -12,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMdef, 150;}
+766,    TerraniteHelmet,                5,      30000,      3000,       300,        0,      15,     0,      -12,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMdef, 20;}
 769,    GuyFawkesMask,                  5,      1000000,    500000,      50,         0,      25,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
 770,    FairyHat,                       5,      2000,         1000,       20,         0,      5,      0,      -10,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bLuk, 3;}
 795,    BromenalHelmet,                 5,      1000000,      500000,    400,        0,      25,     0,      -30,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
@@ -65,7 +65,7 @@
 886,    OrangeEggshellHat,              5,      7000,       5000,       15,         0,      25,      0,      3,      0,      2,      256,        0,      1,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
 887,    DarkEggshellHat,                5,      7000,       5000,       15,         0,      25,      0,      3,      0,      2,      256,        0,      1,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
 888,    MagicGMTopHat,                  5,      4200,       1900,       30,         0,      60,     0,      20,     0,      2,      256,        0,      0,      0,      {},                                                                     {set @minLvl, EVT_KILLTHEGM; callfunc "RestrictedItem"; bonus bMaxHP, 31000; bonus bFlee, -200; bonus bHPrecovRate, -400; bonus bCriticalDef, 250; bonus bMdef, 89;}
-889,    MurdererCrown, 5, 3000000, 1500000, 800, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bAgi, 10;}
+889,    MurdererCrown, 5, 3000000, 1500000, 800, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bAgi, 10;}
 890,    BeanieCopter,                   5,      8000,       2000,       20,         0,      25,      0,      2,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
 897,    RedRoseHat,                     5,      1000000,    500000,       10,          0,      25,      0,      8,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
 898,    WhiteRoseHat,                   5,      1000000,    500000,       10,          0,      25,      0,      8,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bDex, 10; bonus bLuk, 10;}
@@ -95,8 +95,8 @@
 1247,   HeartGlasses,                   5,      1000000,    500000,       20,         0,      10,      0,      5,      0,      2,      256,        0,      0,      0,      {},                                                                     {}
 1255,   RabbitEars,                     5,      1000000,    500000,       20,         0,      25,      0,      4,      0,      2,      256,        0,      1,      0,      {},                                                                     {}
 1256,   EggshellHat,                    5,      1000000,    500000,       15,         0,      25,     0,      0,      0,      2,      256,        0,      1,      0,      {},                                                                     {bonus bAgi, -1;}
-1276,   OperaMask,                      5,      1000000,    500000,       50,         0,      25,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-1277,   JesterMask,                     5,      1000000,    500000,        50,         0,      25,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
+1276,   OperaMask,                      5,      1000000,    500000,       50,         0,      25,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+1277,   JesterMask,                     5,      1000000,    500000,        50,         0,      25,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
 1278,   WitchHat,                       5,      1000000,    500000,        50,         0,      25,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bInt, 15;}
 1279,   GoblinMask,                     5,      1000000,    500000,        50,         0,      25,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 100; bonus bInt, 15;}
 2130,   RedDesertHat,                   5,      2400,       600,        20,         0,      3,      0,      -1,     0,      2,      256,        0,      0,      0,      {},                                                                     {}
@@ -171,13 +171,13 @@
 2267,   OrangeBeret,                    5,      1000000,    500000,        20,         0,      3,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bAgi, 5;}
 2268,   PurpleBeret,                    5,      1000000,    500000,        20,         0,      3,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bAgi, 5;}
 2269,   DarkGreenBeret,                 5,      1000000,    500000,        20,         0,      3,      0,      0,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bAgi, 5;}
-781,   WitchDoctorMask, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bAgi, 10;}
+781,   WitchDoctorMask, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bAgi, 10;}
 
-2270,   BlinkingEvil, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bInt, 10;}
-2271,   BlinkingEvilRed, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bInt, 10;}
-2272,   BlinkingEvilBlue, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bInt, 10;}
-2273,   BlinkingEvilPink, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bInt, 10;}
-2274,   BlinkingEvilYellow, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bInt, 10;}
+2270,   BlinkingEvil, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bInt, 10;}
+2271,   BlinkingEvilRed, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bInt, 10;}
+2272,   BlinkingEvilBlue, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bInt, 10;}
+2273,   BlinkingEvilPink, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bInt, 10;}
+2274,   BlinkingEvilYellow, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bInt, 10;}
 //ID,   Name___________________,        Type,   Price,      Sell,       Weight,     ATK,    DEF,    Range,  Mbonus, Slot,   Gender, Loc,        wLV,    eLV,    View,   {UseScript},                                                            {EquipScript}
 4020,   CandleHelmet,                   5,      20000,      2000,       450,        0,      16,     0,      -25,    0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bInt, 1;bonus bAgi, -1;}
 4027,   YetiMask,                       5,      6000,       3000,       10,         0,      4,      0,      -10,    0,      2,      256,        0,      0,      0,      {},                                                                     {}
@@ -188,8 +188,8 @@
 4033,   ChefHat,                        5,      1000000,    500000,        30,         0,      25,      0,      2,      0,      2,      256,        0,      0,      0,      {},                                                                     {}
 4042,   RedNose,                        5,      1000000,    500000,       4,          0,      25,      0,      7,      0,      2,      256,        0,      0,      0,      {},                                                                     {}
 5128,    DarkHelm,                      5,      3000000,    1500000,      800,        0,      19,     0,      -80,    0,      2,      256,        0,      0,      0,      {},                                                                     {  bonus bStr, 10; bonus bMaxHPrate, 10; bonus bAtkRange, -((bAtkRange/2)); bonus bInt, -Int;}
-5129,    UnderworldMask,                5,      3000000,    1500000,      100, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bAgi, 10;}
-5130,    Phylactery,                    5,      1000000,    500000,      20,         0,      25,      0,      50,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 50; bonus bAspdRate, 10; bonus bInt, 10; bonus bDex, -(Dex/2); bonus bMdef, 50;}
+5129,    UnderworldMask,                5,      3000000,    1500000,      100, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bAgi, 10;}
+5130,    Phylactery,                    5,      1000000,    500000,      20,         0,      25,      0,      50,      0,      2,      256,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 50; bonus bAspdRate, 10; bonus bInt, 10; bonus bDex, -(Dex/2); bonus bMdef, 10;}
 11217,   GoldenCatEars, 5, 2000000, 1000000, 90, 0, 36, 0, -36, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bAgi, 10;}
 8052,   BlackMambaHelm, 5, 2000000, 1000000, 90, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bAgi, 10;}
 3307,   SpideyMask, 5, 2000000, 1000000, 90, 0, 36, 0, -36, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 100; bonus bAgi, 5;}
@@ -217,18 +217,18 @@
 3306,   SadSoulMask, 5, 2000000, 1000000, 90, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bStr, 10;}
 4057,   EagleMask, 5, 2000000, 1000000, 90, 0, 36, 0, -36, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bAgi, 10;}
 3093,   FlamingMask, 5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bInt, 10;}
-3096,   DragonHelm, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-3221,   SamuraiHelm, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-3263,   PharaohCrown, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-3266,   DeathMask,    5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bInt, 10;}
-3331,   BlackKnightHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-3336,   KnightHelmetDemonic, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-3381,   ImperialCrown, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-3446,   Warbonnet, 5, 3000000, 1500000, 800, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bAgi, 10;}
-8012,   CenturionHelm, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-8013,   GladiatorHelm, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-8014,   MajorHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-8015,   SoldierHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-8016,   NinjaMask, 5, 3000000, 1500000, 800, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bAgi, 10;}
-8017,   UnsilveredCrusadeHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
-8018,   VikingHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 25; bonus bStr, 10;}
+3096,   DragonHelm, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+3221,   SamuraiHelm, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+3263,   PharaohCrown, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+3266,   DeathMask,    5, 3000000, 1500000, 500, 0, 45, 0, 30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bInt, 10;}
+3331,   BlackKnightHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+3336,   KnightHelmetDemonic, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+3381,   ImperialCrown, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+3446,   Warbonnet, 5, 3000000, 1500000, 800, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bAgi, 10;}
+8012,   CenturionHelm, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+8013,   GladiatorHelm, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+8014,   MajorHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+8015,   SoldierHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+8016,   NinjaMask, 5, 3000000, 1500000, 800, 0, 45, 0, 0, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bAgi, 10;}
+8017,   UnsilveredCrusadeHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
+8018,   VikingHelmet, 5, 3000000, 1500000, 800, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bMdef, 10; bonus bStr, 10;}
