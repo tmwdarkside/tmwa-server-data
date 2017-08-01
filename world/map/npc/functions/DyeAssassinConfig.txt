@@ -5,8 +5,8 @@ OnInit:
     /******************************
         Config Starts Here
     ******************************/
-    setarray $@DYE_color_names$, "Red", "Green", "Dark Blue", "Yellow", "Light Blue", "Pink", "Orange", "Purple", "Dark Green";
-    setarray $@DYE_colors$,      "Red", "Green", "DBlue",  "Yellow", "LBlue",  "Pink", "Orange", "Purple", "DGreen";
+    setarray $@DYE_color_names$, "Red", "Green", "Dark Blue", "Yellow", "Light Blue", "Pink", "Black", "Orange", "Purple", "Dark Green";
+    setarray $@DYE_colors$,      "Red", "Green", "DBlue",  "Yellow", "LBlue",  "Pink", "Black", "Orange", "Purple", "DGreen";
 
     setarray $@DYE_assassin_items$,      "AssassinGloves", "AssassinPants",  "AssassinShirt";
     setarray $@DYE_assassin_item_names$, "Assassin Gloves", "Assassin Pants", "Assassin Shirt";
