@@ -1,0 +1,19 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Assassin Island mobs
+
+068-1,0,0,0,0|monster|DarkBlueAssassin|1184,2,10000ms,0ms
+068-1,0,0,0,0|monster|YellowAssassin|1185,3,10000ms,0ms
+068-1,0,0,0,0|monster|LightBlueAssassin|1186,3,10000ms,0ms
+068-1,0,0,0,0|monster|PinkAssassin|1187,2,10000ms,0ms
+068-1,0,0,0,0|monster|Silkworm|1035,2,60000ms,0ms
+068-1,0,0,0,0|monster|CloverPatch|1037,2,0ms,0ms
+068-1,0,0,0,0|monster|ViciousSquirrel|1105,10,30ms,0ms
+068-1,0,0,0,0|monster|Butterfly|1055,10,30ms,0ms
+068-1,0,0,0,0|monster|RedAssassin|1182,2,10000ms,18000ms
+068-1,0,0,0,0|monster|Assassin|1144,5,9000ms,18000ms
+068-1,0,0,0,0|monster|GreenAssassin|1183,4,10000ms,0ms
+068-1,0,0,0,0|monster|OrangeAssassin|1189,3,10000ms,0ms
+068-1,0,0,0,0|monster|PurpleAssassin|1190,2,10000ms,0ms
+068-1,0,0,0,0|monster|BlackAssassin|1188,2,10000ms,0ms
+068-1,0,0,0,0|monster|DarkGreenAssassin|1191,2,18000ms,0ms
+068-1,0,0,0,0|monster|TealAssassin|1192,2,18000ms,0ms

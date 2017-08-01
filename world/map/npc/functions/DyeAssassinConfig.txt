@@ -1,0 +1,42 @@
+009-2,32,105,0|script|#DyeAssassinChecker|32767
+{
+    end;
+OnInit:
+    /******************************
+        Config Starts Here
+    ******************************/
+    setarray $@DYE_color_names$, "Red", "Green", "Dark Blue", "Yellow", "Light Blue", "Pink", "Orange", "Purple", "Dark Green";
+    setarray $@DYE_colors$,      "Red", "Green", "DBlue",  "Yellow", "LBlue",  "Pink", "Orange", "Purple", "DGreen";
+
+    setarray $@DYE_assassin_items$,      "AssassinGloves", "AssassinPants",  "AssassinShirt";
+    setarray $@DYE_assassin_item_names$, "Assassin Gloves", "Assassin Pants", "Assassin Shirt";
+    /******************************
+        Config Ends Here
+    ******************************/
+
+    set $@w, 0;
+    freeloop 1; // do not check for infinity loop
+    callsub S_Array;
+    freeloop 0; // re-enable infinity loop check
+    set $@w, 0;
+    set $@c, 0;
+    end;
+
+S_Array:
+    if(getitemlink($@DYE_assassin_items$[$@w]) == "Unknown Item") goto L_Fail;
+    set $@c, 0;
+    callsub S_Color;
+    set $@w, $@w + 1;
+    if($@w < getarraysize($@DYE_assassin_items$)) goto S_Array;
+    return;
+
+L_Fail:
+    debugmes "Dye Fail: "+$@DYE_assassin_items$[$@w];
+    mapexit;
+
+S_Color:
+    if(getitemlink($@DYE_colors$[$@c] + $@DYE_assassin_items$[$@w]) == "Unknown Item") goto L_Fail;
+    set $@c, $@c + 1;
+    if($@c < getarraysize($@DYE_colors$)) goto S_Color;
+    return;
+}
