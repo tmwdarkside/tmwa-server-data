@@ -30,7 +30,7 @@ L_ask_salmi:
     mes "I dye things, upon request.\"";
     menu
         "But what are dyes and where can I get them?", L_ask_dye,
-        "Can you dye something for me?", L_clothes_choice,
+        "Can you dye assassin items for me?", L_clothes_choice,
         "Can you also remove color from clothing?", L_ask_bleach,
         "Good bye.", L_Close;
 
@@ -61,7 +61,7 @@ L_CloneArray:
 
 L_clothes_choice2:
     mes "[Salmi]";
-    mes "\"What can I dye for you today?\"";
+    mes "\"What assassin item can I dye for you today?\"";
     next;
     callfunc "DynamicItemMenu$";
     set @default_choice$, "";
@@ -126,6 +126,7 @@ L_explain_dye:
     goto L_Close;
 
 L_finish:
+    if(getitemlink($@DYE_colors$[@colour] == "Black") goto L_no_posible;
     if(getitemlink($@DYE_colors$[@colour] + @item_del$) == "Unknown Item") mapexit;
     if(countitem(@item_del$) < 1) goto L_havenone;
     delitem @item$, 1;
@@ -134,6 +135,14 @@ L_finish:
     mes "[Salmi]";
     mes "\"Here's your " + $@DYE_color_names$[@colour] + " " + @name$ + "!  Please let dry for a minute.\"";
     goto L_Close;
+
+L_no_posible:
+    mes "[Salmi]";
+    mes "That colored assassin item does not exists";
+    next;
+    menu
+        "I wanted to dye a different colored item anyway.", L_clothes_choice,
+        "Never mind.", L_Close;
 
 L_havenone:
     mes "[Salmi]";
