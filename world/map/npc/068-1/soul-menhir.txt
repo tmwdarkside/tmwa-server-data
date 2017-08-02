@@ -1,0 +1,17 @@
+//53,40
+
+068-1,111,81,0|script|Soul Menhir#assassins|508
+{
+    set @map$, "068-1";
+    setarray @Xs, 111, 110, 109, 112, 111, 110, 109;
+    setarray @Ys, 81, 80, 81, 80, 79, 81, 80;
+    set @x, 0;
+    set @y, 0;
+    callfunc "SoulMenhir";
+    set @map$, "";
+    cleararray @Xs[0], 0, 7;
+    cleararray @Ys[0], 0, 7;
+    set @x, 0;
+    set @y, 0;
+    close;
+}

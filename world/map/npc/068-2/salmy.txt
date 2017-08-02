@@ -95,6 +95,7 @@ L_colour:
     set @default_choice$, "";
     if (@item$ == "") goto L_no_dye;
     set @colour, @index;
+    if ($@DYE_color_names$[@colour] == "Black") goto L_no_posible;
     goto L_finish;
 
 S_CloneColors:
@@ -126,7 +127,6 @@ L_explain_dye:
     goto L_Close;
 
 L_finish:
-    if(getitemlink($@DYE_colors$[@colour] == "Black") goto L_no_posible;
     if(getitemlink($@DYE_colors$[@colour] + @item_del$) == "Unknown Item") mapexit;
     if(countitem(@item_del$) < 1) goto L_havenone;
     delitem @item$, 1;
@@ -138,7 +138,7 @@ L_finish:
 
 L_no_posible:
     mes "[Salmi]";
-    mes "That colored assassin item does not exists";
+    mes "That colored assassin item does not exists!";
     next;
     menu
         "I wanted to dye a different colored item anyway.", L_clothes_choice,
