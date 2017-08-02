@@ -1,10 +1,71 @@
 068-2,81,22,0|script|Salmi|612
 {
-    goto L_Main;
+    set @equipedtorso, getequipid(equip_torso);
+    set @equipedgloves, getequipid(equip_gloves);
+    set @equipedshoes, getequipid(equip_shoes);
+    set @equipedlegs, getequipid(equip_legs);
+
+    set @torsoitem, @equipedtorso;
+    set @glovesitem, @equipedgloves;
+    set @shoesitem, @equipedshoes;
+    set @legsitem, @equipedlegs;
+
+    set @torso, 0;
+    set @gloves, 0;
+    set @shoes, 0;
+    set @legs, 0;
+
+
+// message strcharinfo(0), "Torso: " + @torsoitem + " Gloves: " + @glovesitem + " Shoes: " + @shoesitem + " Legs: " + @legsitem;
+
+    if (@torsoitem == 755) ||
+       (@torsoitem == 8161) ||
+       (@torsoitem == 8164) ||
+       (@torsoitem == 8167) ||
+       (@torsoitem == 8170) ||
+       (@torsoitem == 8173) ||
+       (@torsoitem == 8188) ||
+       (@torsoitem == 8179) ||
+       (@torsoitem == 8182) ||
+       (@torsoitem == 8185) ||
+       (@torsoitem == 3230)   set @torso, 1;
+
+    if (@legsitem == 731) ||
+       (@legsitem == 8162) ||
+       (@legsitem == 8165) ||
+       (@legsitem == 8168) ||
+       (@legsitem == 8171) ||
+       (@legsitem == 8174) ||
+       (@legsitem == 8177) ||
+       (@legsitem == 8180) ||
+       (@legsitem == 8183) ||
+       (@legsitem == 8186) ||
+       (@legsitem == 3229)   set @legs, 1;
+
+    if (@shoesitem == 757)  set @shoes, 1;
+
+    if (@glovesitem == 756) ||
+       (@glovesitem == 8163) ||
+       (@glovesitem == 8166) ||
+       (@glovesitem == 8169) ||
+       (@glovesitem == 8172) ||
+       (@glovesitem == 8175) ||
+       (@glovesitem == 8178) ||
+       (@glovesitem == 8181) ||
+       (@glovesitem == 8184) ||
+       (@glovesitem == 8187) ||
+       (@glovesitem == 3227)   set @gloves, 1;
+
+     if (@gloves + @shoes +  @legs + @torso == 4) goto L_Main;
+
+     goto L_Close3;
+
+    
 
 L_Main:
+    emotion EMOTE_TONGUE, strcharinfo(0);
     mes "[Salmi]";
-    mes "\"Greetings, fair traveler. With what may I help you?\"";
+    mes "\"Greetings, Assassin. With what may I help you?\"";
     menu
         "Greetings, are you the assassin store merchant?", L_ask_salmi,
         "But what are dyes and what purpose do they serve?", L_ask_dye,
@@ -26,7 +87,7 @@ L_ask_bleach:
 L_ask_salmi:
     mes "[Salmi]";
     mes "\"That is an honest mistake you have made.";
-    mes "However I am not the merchant, but rather a Assassin Master Dyer here to serve the good assassins of this island.";
+    mes "However I am not the merchant, but rather an Assassin Master Dyer here to serve the good assassins of this island.";
     mes "I dye things, upon request.\"";
     menu
         "But what are dyes and where can I get them?", L_ask_dye,
@@ -155,5 +216,13 @@ L_Close:
     mes "\"Farewell and good luck in your journeys!\"";
     close2;
     emotion EMOTE_WINK, strcharinfo(0);
+    end;
+
+L_Close3:
+    mes "\"You does not seems an real Assassin and me only dye for my brothers!!!\"";
+    mes "\"Go out and die by my Assassin army Muahahahahah!!!\"";
+    close2;
+    emotion EMOTE_DISGUST, strcharinfo(0);
+    warp "068-1", 126, 69;
     end;
 }
