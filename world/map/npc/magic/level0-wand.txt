@@ -74,7 +74,7 @@ L_Failed:
 OnInit:
     setarray .Wands[0], 0, 3426, 3427, 3428, 3429, 3430, 3431, 3432, 3499, 758, 1171;
     setarray .WandsPwr[0], 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1;
-    setarray .WandsAnim[0], 0, 40, 41, 42, 43, 44, 45, 46, 47, 35, 33;
+    setarray .WandsAnim[0], 0, 35, 35, 35, 35, 35, 35, 35, 35, 35, 33;
     set .school, SKILL_MAGIC;
     set .invocation$, chr(MAGIC_SYMBOL) + "confringo"; // used in npcs that refer to this spell
     void call("magic_register");
