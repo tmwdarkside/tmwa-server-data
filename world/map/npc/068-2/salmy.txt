@@ -88,7 +88,7 @@ L_ask_salmi:
     mes "[Salmi]";
     mes "\"That is an honest mistake you have made.";
     mes "However I am not the merchant, but rather an Assassin Master Dyer here to serve the good assassins of this island.";
-    mes "I dye things, upon request.\"";
+    mes "I dye assassin things, upon request.\"";
     menu
         "But what are dyes and where can I get them?", L_ask_dye,
         "Can you dye assassin items for me?", L_clothes_choice,
@@ -219,8 +219,8 @@ L_Close:
     end;
 
 L_Close3:
-    mes "\"You does not seems an real Assassin and me only dye for my brothers!!!\"";
-    mes "\"Go out and die by my Assassin army Muahahahahah!!!\"";
+    mes "\"You does not seems a real Assassin and me only dye for my brothers!!!\"";
+    mes "\"Go out and die by my Assassins army... Muahahahahah!!!\"";
     close2;
     emotion EMOTE_DISGUST, strcharinfo(0);
     warp "068-1", 126, 69;
