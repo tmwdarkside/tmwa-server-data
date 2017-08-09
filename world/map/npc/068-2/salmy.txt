@@ -80,8 +80,8 @@ L_barber:
 
 L_ask_bleach:
     mes "[Salmi]";
-    mes "\"I'm afraid no.";
-    mes "For that, you would need to visit Candide in the Tulimshar marketplace.\"";
+    mes "\"Lol, no!";
+    mes "For that, you would need to visit our brother that is close to Candide in the Tulimshar marketplace. He works there undercover and he should see that you have your [Assassin Boots] fitted or he will not pay attention.\"";
     goto L_Main;
 
 L_ask_salmi:
@@ -145,7 +145,7 @@ L_colour:
     mes "\"Excellent. Now, what color do you want?\"";
     next;
     set @r, 0;
-    set @j, getarraysize($@DYE_colors$);
+    set @j, getarraysize($@DYE_assassin_colors$);
     cleararray @items$, "", getarraysize(@items$);
     cleararray @item_names$, "", getarraysize(@item_names$);
     callsub S_CloneColors;
@@ -156,12 +156,12 @@ L_colour:
     set @default_choice$, "";
     if (@item$ == "") goto L_no_dye;
     set @colour, @index;
-    if ($@DYE_color_names$[@colour] == "Black") goto L_no_posible;
+    if ($@DYE_assassin_color_names$[@colour] == "Black") goto L_no_posible;
     goto L_finish;
 
 S_CloneColors:
-    set @items$[@r],      $@DYE_colors$[@r] + "Dye";
-    set @item_names$[@r], $@DYE_color_names$[@r];
+    set @items$[@r],      $@DYE_assassin_colors$[@r] + "Dye";
+    set @item_names$[@r], $@DYE_assassin_color_names$[@r];
     set @r, @r + 1;
     if(@r < @j) goto S_CloneColors;
     set @r, 0;
@@ -188,13 +188,13 @@ L_explain_dye:
     goto L_Close;
 
 L_finish:
-    if(getitemlink($@DYE_colors$[@colour] + @item_del$) == "Unknown Item") mapexit;
+    if(getitemlink($@DYE_assassin_colors$[@colour] + @item_del$) == "Unknown Item") mapexit;
     if(countitem(@item_del$) < 1) goto L_havenone;
     delitem @item$, 1;
     delitem @item_del$, 1;
-    getitem $@DYE_colors$[@colour] + @item_del$, 1;
+    getitem $@DYE_assassin_colors$[@colour] + @item_del$, 1;
     mes "[Salmi]";
-    mes "\"Here's your " + $@DYE_color_names$[@colour] + " " + @name$ + "!  Please let dry for a minute.\"";
+    mes "\"Here's your " + $@DYE_assassin_color_names$[@colour] + " " + @name$ + "!  Please let dry for a minute.\"";
     goto L_Close;
 
 L_no_posible:

@@ -1,0 +1,132 @@
+// IMPORTANT: add your items to DyeConfig, do not edit Calmy
+
+002-2,69,91,0|script|Kalmy|613
+{
+    mes "[Calmy]";
+    mes "\"Greetings! I am Calmy the Assassins Bleacher.";
+    mes "Tulimshar is not my homeland, me is comfrom Assassins Island where i learned the ancient art of bleaching.\"";
+    next;
+    mes "\"Bleaching was originally done by the sun, but now we use ash combined with special ingredients to remove color from fabric.\"";
+    next;
+    menu
+        "What is needed for the bleaching process?", L_Materials,
+        "I'd like to bleach something.", L_bleach_menu,
+        "So long.", L_Close;
+
+L_Materials:
+    mes "[Calmy]";
+    mes "\"For each item, I will need 5 piles of ash and 25,000 GP for the special ingredients.\"";
+    next;
+    menu
+        "I'd like to bleach something.", L_bleach_menu,
+        "So long.", L_Close;
+
+L_bleach_menu:
+    if (countitem("PileOfAsh") < 5) goto L_no_ash;
+    if (Zeny < 25000) goto L_no_money;
+    cleararray @KALMY_items,0,getarraysize(@KALMY_items);
+    cleararray @KALMY_color,0,getarraysize(@KALMY_color);
+    cleararray @KALMY_menu$,"",getarraysize(@KALMY_menu$);
+    set @w, 0;
+    freeloop 1; // do not check for infinity loop
+    callsub S_LoopArray;
+    freeloop 0; // re-enable infinity loop check
+    set @w, 0;
+    set @c, 0;
+    set @p, 0;
+    if(@KALMY_menu$[0] == "") goto L_Nothing;
+    mes "[Calmy]";
+    mes "\"Yes?\"";
+    next;
+    menu
+        "Nevermind.", L_Close,
+        @KALMY_menu$[0], L_MenuItems, // base array was too big for a dynamic menu so we can't use it
+        @KALMY_menu$[1], L_MenuItems,
+        @KALMY_menu$[2], L_MenuItems,
+        @KALMY_menu$[3], L_MenuItems,
+        @KALMY_menu$[4], L_MenuItems,
+        @KALMY_menu$[5], L_MenuItems,
+        @KALMY_menu$[6], L_MenuItems,
+        @KALMY_menu$[7], L_MenuItems,
+        @KALMY_menu$[8], L_MenuItems,
+        @KALMY_menu$[9], L_MenuItems,
+        @KALMY_menu$[10], L_MenuItems,
+        @KALMY_menu$[11], L_MenuItems,
+        @KALMY_menu$[12], L_MenuItems,
+        @KALMY_menu$[13], L_MenuItems,
+        @KALMY_menu$[14], L_MenuItems,
+        @KALMY_menu$[15], L_MenuItems,
+        @KALMY_menu$[16], L_MenuItems,
+        @KALMY_menu$[17], L_MenuItems;
+
+S_LoopArray:
+    set @c, 0;
+    callsub S_LoopColor;
+    set @w, @w + 1;
+    if(@w < getarraysize($@DYE_assassin_items$)) goto S_LoopArray;
+    return;
+
+S_LoopColor:
+    if(countitem($@DYE_assassin_colors$[@c] + $@DYE_assassin_items$[@w]) > 0)
+        goto L_AddToMenu;
+    goto L_LoopColor2;
+
+L_AddToMenu:
+    set @KALMY_items[@p], @w;
+    set @KALMY_color[@p], @c;
+    set @KALMY_menu$[@p], $@DYE_assassin_color_names$[@c]+" "+$@DYE_assassin_item_names$[@w];
+    set @p, @p + 1;
+    goto L_LoopColor2;
+
+L_LoopColor2:
+    set @c, @c + 1;
+    if(@c < getarraysize($@DYE_assassin_colors$)) goto S_LoopColor;
+    return;
+
+L_Nothing:
+    mes "[Calmy]";
+    mes "\"Sorry, you have nothing to bleach.\"";
+    next;
+    goto L_Close;
+
+L_MenuItems:
+    if (countitem("PileOfAsh") < 5) goto L_no_ash;
+    if (Zeny < 25000) goto L_no_money;
+    set @m, @menu - 2;
+    set @it$, $@DYE_assassin_colors$[@KALMY_color[@m]] + $@DYE_assassin_items$[@KALMY_items[@m]];
+    if(getitemlink(@it$) == "Unknown Item") mapexit;
+    delitem @it$, 1;
+    delitem "PileOfAsh", 5;
+    set Zeny, Zeny - 25000;
+    getitem $@DYE_assassin_items$[@KALMY_items[@m]], 1;
+    goto L_again;
+
+L_again:
+    mes "[Calmy]";
+    mes "\"Would you like to bleach something else?\"";
+    next;
+    menu
+        "Yes.", L_bleach_menu,
+        "No.", L_Close;
+
+L_no_ash:
+    mes "[Calmy]";
+    mes "\"You don't have enough ash for me to bleach anything.";
+    mes "I need three piles.\"";
+    next;
+    goto L_Close;
+
+L_no_money:
+    mes "[Calmy]";
+    mes "\"You don't have enough gold for me to bleach anything.";
+    mes "I need 5,000 GP for supplies.\"";
+    next;
+    goto L_Close;
+
+L_Close:
+    mes "[Calmy]";
+    mes "\"Come again.\"";
+    close2;
+    emotion EMOTE_GRIN, strcharinfo(0);
+    end;
+}
