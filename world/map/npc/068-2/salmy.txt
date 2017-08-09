@@ -81,7 +81,7 @@ L_barber:
 L_ask_bleach:
     mes "[Salmi]";
     mes "\"Lol, no!";
-    mes "For that, you would need to visit our brother that is close to Candide in the Tulimshar marketplace. He works there undercover and he should see that you have your [Assassin Boots] fitted or he will not pay attention.\"";
+    mes "For that, you would need to visit our brother that is close to Candide in the Tulimshar marketplace. He works there undercover and he should see that you have your Assassin Boots fitted or he will not pay attention.\"";
     goto L_Main;
 
 L_ask_salmi:
