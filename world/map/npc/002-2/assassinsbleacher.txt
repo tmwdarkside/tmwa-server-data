@@ -7,18 +7,13 @@
     set @shoesitem, @equipedshoes;
     set @shoes, 0;
 
-
-// message strcharinfo(0), "Torso: " + @torsoitem + " Gloves: " + @glovesitem + " Shoes: " + @shoesitem + " Legs: " + @legsitem;
-
-
-
     if (@shoesitem == 757)  set @shoes, 1;
 
     if (@shoes == 1) goto L_Main;
 
     goto L_Close3;
 
-L_Main;
+L_Main:
     mes "[Calmy]";
     mes "\"Greetings! I am Calmy the Assassins Bleacher.";
     mes "Tulimshar is not my homeland, me is comfrom Assassins Island, where i learned the ancient art of bleaching.\"";
