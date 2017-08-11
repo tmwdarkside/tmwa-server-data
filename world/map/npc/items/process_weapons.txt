@@ -1,7 +1,7 @@
 // Valc
 // Code based on the Old Woman script than revise our equipment.
 // This sample allow unequip items when there is not compatibility beteewn them.
-// Dark Necknale require Banshee Bow equiped or no way.
+// Bromenal Four-Leaf Amulet require Melee weapon equiped or no way.
 
 
 function|script|ProcessWeapons
@@ -9,9 +9,11 @@ function|script|ProcessWeapons
     set @equipedweapon, getequipid(equip_hand1);
     set @weapon, 1;
     set @weaponitem, @equipedweapon;
+    set @equipedLuk, @headLuk + @legLuk + @handLuk + @chestLuk + @footLuk;
 
 
-//Only Banshee Bow is compatible with Dark Necklace
+
+//Only Melee Weapons are compatible with Bromenal Four-Leaf Amulet.
     if (@weaponitem != 521) &&
        (@weaponitem != 522) &&
        (@weaponitem != 536) &&
@@ -28,14 +30,9 @@ function|script|ProcessWeapons
        (@weaponitem != 1201) &&
        (@weaponitem != 8021) &&
        (@weaponitem != 8022) &&
-       (@weaponitem != 8077) && goto L_Weapon;
+       (@weaponitem != 8077) goto L_Unequip;
 
-    goto L_Return;
-
-L_Weapon:
-   //To handle weapon stuff before unequip it.
-   set @weapon, 0;
-   goto L_Unequip;
+    goto L_Luck;
 
 L_Unequip:
   //Unequip it showing a message from the char.
@@ -43,8 +40,36 @@ L_Unequip:
   callfunc "UnequipLater";
   goto L_Return;
 
+L_Luck:
+//The stuff can not works due Luk is as max 100 and the equipment extra points are not addedd.
+// So, the litle bug than require unequip some item with luck when you are at +150 luck can not be handled inthis moment.
+//Yhe bug that after equip the Amulet, you an go up to 250 point but before equip it you must have less than 150.
+   if ((Luk + @equipedLuk) >= 150) goto L_Unequip2;
+  goto L_Return2;
+
+L_Unequip2:
+  //Unequip it showing a message from the char.
+  message strcharinfo(0), "Uf! I have too much luck in this moment (" + (Luk + @equipedLuk) + "), maybe i need unequip some lucky items first, and leave my stats down of 150 on luck!!";
+  callfunc "UnequipLater";
+  goto L_Return2;
+
 L_Return:
 // Next line is only to test the equiped item ID, so this is usualy commented.
 // message strcharinfo(0), "Weapon equipment: " + @weaponitem + " Weapon value: " + @weapon;
+  set @headLuk, 0;
+  set @legLuk, 0;
+  set @handLuk, 0;
+  set @chestLuk, 0;
+  set @footLuk, 0;
+  return;
+
+L_Return2:
+// Next line is only to test the luk, so this is usualy commented.
+//message strcharinfo(0), "Luk: " + Luk + " Equiped Luck: " + @equipedLuk;
+  set @headLuk, 0;
+  set @legLuk, 0;
+  set @handLuk, 0;
+  set @chestLuk, 0;
+  set @footLuk, 0;
   return;
 }
