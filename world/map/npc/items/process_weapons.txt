@@ -41,9 +41,10 @@ L_Unequip:
   goto L_Return;
 
 L_Luck:
-//The stuff can not works due Luk is as max 100 and the equipment extra points are not addedd.
-// So, the litle bug than require unequip some item with luck when you are at +150 luck can not be handled inthis moment.
-//Yhe bug that after equip the Amulet, you an go up to 250 point but before equip it you must have less than 150.
+//The stuff is that only hanling luk the revision can not works due Luk is 100 as max and the equipment extra points are not added.
+// So, there was the litle bug than require unequip some item with luck when you are at > +150 luck and only know how to handle making all luck equiped add only 149 as max.
+//After equip the Amulet, you can go up to 250 point but before equip it you must have less than 150.
+
    if ((Luk + @equipedLuk) >= 150) goto L_Unequip2;
   goto L_Return2;
 
