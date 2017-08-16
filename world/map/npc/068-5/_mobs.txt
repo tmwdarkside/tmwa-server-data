@@ -1,3 +1,11 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Hell Cave mobs
 
+068-5,109,37,22,5|monster|Reaper|1068,1,100000ms,0ms
+068-5,109,87,12,14|monster|BlackSlime|1137,30,10000ms,0ms
+068-5,71,108,6,6|monster|UndeadWitch|1116,1,10000ms,0ms
+068-5,101,68,147,88|monster|FeyElement|1086,10,10000ms,0ms
+068-5,101,68,147,88|monster|DemonicSpirit|1101,10,10000ms,0ms
+068-5,101,68,147,88|monster|Scythe|1069,10,10000ms,0ms
+068-5,101,68,147,88|monster|Stalker|1075,10,10000ms,0ms
+068-5,101,68,147,88|monster|LavaSlime|1132,10,10000ms,0ms
