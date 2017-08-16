@@ -23,11 +23,15 @@ npc: npc/magic/level2-magic-knuckles.txt
 npc: npc/magic/level2-summon-snakes.txt
 npc: npc/magic/level2-summon-wickedmushroom.txt
 npc: npc/magic/level2-summon-demonic.txt
+npc: npc/magic/level2-summon-stalker.txt
+npc: npc/magic/level2-summon-vicious.txt
 npc: npc/magic/level2-summon-spiky-mushroom.txt
 npc: npc/magic/level2-summon-fluffies.txt
 npc: npc/magic/level2-summon-mouboo.txt
 npc: npc/magic/level2-summon-pinkie.txt
 npc: npc/magic/level2-summon-wolvern.txt
+npc: npc/magic/level2-summon-squirrel.txt
+npc: npc/magic/level2-summon-yeti.txt
 npc: npc/magic/level2-toxic-dart.txt
 npc: npc/magic/level2-enchant-lifestone.txt
 npc: npc/magic/level2-flying-backpack.txt

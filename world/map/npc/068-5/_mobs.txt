@@ -1,5 +1,3 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// Assassins House warps
+// Hell Cave mobs
 
-068-2,72,30|warp|-1,-1,068-1,126,69
-068-2,69,27|warp|-1,-1,068-3,108,33

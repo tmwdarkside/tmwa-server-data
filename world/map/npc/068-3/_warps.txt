@@ -1,0 +1,7 @@
+// This file is generated automatically. All manually added changes will be removed when running the Converter.
+// Assassins Cave warps
+
+068-3,77,118|warp|-1,-1,068-1,89,97
+068-3,108,33|warp|-1,-1,068-2,69,27
+068-3,46,29|warp|-1,-1,068-4,177,178
+068-3,29,104|warp|-1,-1,068-5,174,109

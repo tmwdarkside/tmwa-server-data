@@ -1,5 +1,6 @@
+// Map 068-5: Hell Cave
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
-// Assassins House warps
-
-068-2,72,30|warp|-1,-1,068-1,126,69
-068-2,69,27|warp|-1,-1,068-3,108,33
+map: 068-5
+npc: npc/068-5/_mobs.txt
+npc: npc/068-5/_nodes.txt
+npc: npc/068-5/_warps.txt
