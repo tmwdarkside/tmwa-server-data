@@ -7,10 +7,11 @@ OnCast:
     if (Sp < 35) end;
     if (getskilllv(SKILL_MAGIC) < .level) end;
     if (getskilllv(.school) < .level) end;
-    if (countitem("Skull") < 1 || countitem("BloodStone") < 3) end;
+    if (countitem("Skull") < 1 || countitem("BloodStone") < 3 || countitem("DarkCrystal") < 1) end;
     if (OrumQuest <= 36) end;
     delitem "Skull", 1;
     delitem "BloodStone", 3;
+    delitem "DarkCrystal", 1;
     set @_M_BLOCK, 1; // block casting, until the timer clears it
     addtimer 15000, "Magic Timer::OnClear"; // set the new debuff
     callfunc "adjust_spellpower";

@@ -7,9 +7,10 @@ OnCast:
     if (Sp < 35) end;
     if (getskilllv(SKILL_MAGIC) < .level) end;
     if (getskilllv(.school) < .level) end;
-    if (countitem("YetiClaw") < 3 || countitem("Root") < 2) end;
+    if (countitem("YetiClaw") < 3 || countitem("Root") < 2 || countitem("AnimalBones") < 1) end;
     delitem "YetiClaw", 3;
     delitem "Root", 2;
+    delitem "AnimalBones", 1;
     set @_M_BLOCK, 1; // block casting, until the timer clears it
     addtimer 20000, "Magic Timer::OnClear"; // set the new debuff
     callfunc "adjust_spellpower";

@@ -9,3 +9,8 @@
 068-5,101,68,147,88|monster|Scythe|1069,10,10000ms,0ms
 068-5,101,68,147,88|monster|Stalker|1075,10,10000ms,0ms
 068-5,101,68,147,88|monster|LavaSlime|1132,10,10000ms,0ms
+068-5,95,47,149,47|monster|GreenBlinkingEvil|1260,10,10000ms,0ms
+068-5,97,58,140,40|monster|RedBlinkingEvil|1261,10,10000ms,0ms
+068-5,109,98,140,40|monster|BlueBlinkingEvil|1262,10,10000ms,0ms
+068-5,107,101,139,25|monster|PinkBlinkingEvil|1263,10,10000ms,0ms
+068-5,102,94,140,8|monster|YellowBlinkingEvil|1264,10,10000ms,0ms

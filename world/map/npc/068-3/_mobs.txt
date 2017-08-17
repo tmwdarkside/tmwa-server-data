@@ -1,3 +1,5 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Assassins Cave mobs
 
+068-3,68,67,95,94|monster|HuntsmanSpider|1083,30,10000ms,0ms
+068-3,68,67,95,94|monster|CrotcherScorpion|1084,30,10000ms,0ms
