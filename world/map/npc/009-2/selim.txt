@@ -150,7 +150,8 @@ L_explain_dye:
     goto L_Close;
 
 L_finish:
-    if(getitemlink($@DYE_colors$[@colour] + @item_del$) == "Unknown Item") mapexit;
+//    if(getitemlink($@DYE_colors$[@colour] + @item_del$) == "Unknown Item") announce "Error 11 - Closing map server due mapexit call.", 0;
+    if(getitemlink($@DYE_colors$[@colour] + @item_del$) == "Unknown Item") goto L_Error;
     if(countitem(@item_del$) < 1) goto L_havenone;
     delitem @item$, 1;
     delitem @item_del$, 1;
@@ -171,4 +172,8 @@ L_Close:
     close2;
     emotion EMOTE_WINK, strcharinfo(0);
     end;
+
+L_Error:
+announce "Error 11 - Closing map server due mapexit call.", 0;
+mapexit;
 }

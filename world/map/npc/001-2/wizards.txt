@@ -11,15 +11,20 @@
     close;
 
 OnInit:
-    if (puppet("001-2", 104, 19, "Desert Mana Seed#_M", 166) < 1) mapexit;
-    if (puppet("001-2", 99,  22, "Wizard#1",            355) < 1) mapexit;
-    if (puppet("001-2", 92,  24, "Wizard#2",            356) < 1) mapexit;
-    if (puppet("001-2", 92,  30, "Wizard#3",            357) < 1) mapexit;
-    if (puppet("001-2", 99,  32, "Wizard#4",            358) < 1) mapexit;
-    if (puppet("001-2", 110, 22, "Wizard#5",            359) < 1) mapexit;
-    if (puppet("001-2", 117, 24, "Wizard#6",            360) < 1) mapexit;
-    if (puppet("001-2", 117, 30, "Wizard#7",            361) < 1) mapexit;
-    if (puppet("001-2", 110, 32, "Wizard#8",            362) < 1) mapexit;
-    if (puppet("001-2", 104, 27, "Arch-Wizard#9",       354) < 1) mapexit;
+    if (puppet("001-2", 104, 19, "Desert Mana Seed#_M", 166) < 1) goto L_Error;
+    if (puppet("001-2", 99,  22, "Wizard#1",            355) < 1) goto L_Error;
+    if (puppet("001-2", 92,  24, "Wizard#2",            356) < 1) goto L_Error;
+    if (puppet("001-2", 92,  30, "Wizard#3",            357) < 1) goto L_Error;
+    if (puppet("001-2", 99,  32, "Wizard#4",            358) < 1) goto L_Error;
+    if (puppet("001-2", 110, 22, "Wizard#5",            359) < 1) goto L_Error;
+    if (puppet("001-2", 117, 24, "Wizard#6",            360) < 1) goto L_Error;
+    if (puppet("001-2", 117, 30, "Wizard#7",            361) < 1) goto L_Error;
+    if (puppet("001-2", 110, 32, "Wizard#8",            362) < 1) goto L_Error;
+    if (puppet("001-2", 104, 27, "Arch-Wizard#9",       354) < 1) goto L_Error;
     end;
+
+L_Error:
+announce "Error 23 - Closing map server due mapexit call.", 0;
+mapexit;
+
 }

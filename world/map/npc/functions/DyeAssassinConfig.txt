@@ -32,6 +32,7 @@ S_Array:
 
 L_Fail:
     debugmes "Dye Fail: "+$@DYE_assassin_items$[$@w];
+    announce "Error 1 - Closing map server due mapexit call.", 0;
     mapexit;
 
 S_Color:

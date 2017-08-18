@@ -106,7 +106,8 @@ L_MenuItems:
     if (Zeny < 25000) goto L_no_money;
     set @m, @menu - 2;
     set @it$, $@DYE_assassin_colors$[@KALMY_color[@m]] + $@DYE_assassin_items$[@KALMY_items[@m]];
-    if(getitemlink(@it$) == "Unknown Item") mapexit;
+
+    if(getitemlink(@it$) == "Unknown Item") goto L_Error;
     delitem @it$, 1;
     delitem "PileOfAsh", 5;
     set Zeny, Zeny - 25000;
@@ -147,4 +148,7 @@ L_Close3:
     close2;
     emotion EMOTE_TONGUE, strcharinfo(0);
     end;
+L_Error:
+announce "Error 9 - Closing map server due mapexit call.", 0;
+mapexit;
 }

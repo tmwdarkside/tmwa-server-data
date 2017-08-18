@@ -396,6 +396,7 @@ S_Bandit: // move Bandit subquest into Nibble 0 of QUEST_Hurnscald
 
 L_Deprecated:
     debugmes "Explicitely calling ClearVariables after login is deprecated.";
+    announce "Error 2 - Closing map server due mapexit call.", 0;
     mapexit;
 }
 

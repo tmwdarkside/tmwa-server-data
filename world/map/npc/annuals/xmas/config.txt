@@ -287,5 +287,6 @@ L_Return:
 
 L_XmasError:
     debugmes "Xmas is Dead Jim.";
+    announce "Error 25 - Closing map server due mapexit call.", 0;
     mapexit;
 }

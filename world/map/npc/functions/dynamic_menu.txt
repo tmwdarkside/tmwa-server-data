@@ -146,6 +146,7 @@ L_Clean:
 
 L_ArrayLengthMismatch:
     debugmes "@items and @item_names$ array length mismatch";
+    announce "Error 4 - Closing map server due mapexit call.", 0;
     mapexit;
 }
 
@@ -298,5 +299,6 @@ L_Clean:
 
 L_ArrayLengthMismatch:
     debugmes "@items$ and @item_names$ array length mismatch";
+    announce "Error 5 - Closing map server due mapexit call.", 0;
     mapexit;
 }

@@ -87,10 +87,14 @@ L_Quest:
 L_Close:
     close;
 
+L_Error:
+announce "Error 8 - Closing map server due mapexit call.", 0;
+mapexit;
+
 OnInit:
     registercmd chr(ATCMD_SYMBOL) + "numa", strnpcinfo(0);
     registercmd chr(ATCMD_SYMBOL) + "superdebug", strnpcinfo(0);
-    if (puppet("017-9", 30, 28, "Numa", 393) < 1) mapexit;
+    if (puppet("017-9", 30, 28, "Numa", 393) < 1) goto L_Error;
     end;
 }
 
@@ -121,6 +125,7 @@ L_Woodland:
         "Choose an area", L_Argeas,
         "Close", L_Return;
 
+
 L_Return:
     return;
 
@@ -129,4 +134,5 @@ L_Return:
 L_Valia:
     callfunc "IlliaDebug";
     goto L_Return;
+
 }

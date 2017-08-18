@@ -20,6 +20,7 @@ L_ArrayError:
     if(@quiz_answers$[0] == "") debugmes "@quiz_answers$ is empty";
     if(@quiz_questions$[0] == "") debugmes "@quiz_questions$ is empty";
     if(getarraysize(@quiz_answers$) != getarraysize(@quiz_questions$)) debugmes "Size of @quiz_answers$ is not equal to size of @quiz_questions$";
+    announce "Error 6 - Closing map server due mapexit call.", 0;
     mapexit;
 }
 
@@ -94,5 +95,6 @@ L_Close:
 
 L_ArrayError:
     if(@quiz_answers$[0] == "") debugmes "@quiz_answers$ is empty";
+    announce "Error 7 - Closing map server due mapexit call.", 0;
     mapexit;
 }

@@ -74,7 +74,7 @@ S_Spawn:
     if (.spawned >= .@s)
         goto S_Return;
     set .@n$, "#_Al-lab"+chr(3)+.spawned;
-    if (puppet(.m$[.spawned], .x1[.spawned], .y1[.spawned], .@n$, 399) < 1) mapexit;
+    if (puppet(.m$[.spawned], .x1[.spawned], .y1[.spawned], .@n$, 399) < 1) goto L_Error;
     set .spawned, .spawned + 1;
     if (.spawned < .@s)
         goto S_Spawn;
@@ -96,4 +96,8 @@ L_InitVars:
         "PinkPetal", "BottleOfWater", "ConcentrationPotion";
     set .rsize, getarraysize(.recipes$);
     end;
+
+L_Error:
+announce "Error 13 - Closing map server due mapexit call.", 0;
+mapexit;
 }

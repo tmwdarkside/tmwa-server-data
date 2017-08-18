@@ -358,5 +358,6 @@ L_Return:
 
 L_HalloweenError:
     debugmes "Halloween is Dead Jim.";
+    announce "Error 24 - Closing map server due mapexit call.", 0;
     mapexit;
 }
