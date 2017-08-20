@@ -108,6 +108,18 @@
 1070,BallLightning@NPC_SELFDESTRUCTION,attack,175,1,10000,100,500,yes,self,notintown,0,30,0,0,0,0,
 1092,SlimeBlast@NPC_SELFDESTRUCTION,attack,175,1,10000,100,500,yes,self,notintown,0,30,0,0,0,0,
 
+// Yeti King skills
+// Summons up to 3 Blueslimes
+1272,_Yetiking@NPC_SUMMONSLAVE_SlimeBlastX5,any,198,3,10000,10,5000,no,self,slavelt,7,1092,0,0,0,0,
+1092,SlimeBlast@NPC_SELFDESTRUCTION,attack,175,1,10000,100,500,yes,self,notintown,0,30,0,0,0,0,
+
+// General Krukan skills
+// 7-8 permanent Fallen Lord + 1 Dark Skleton 60s + 1 Wight and zombie each 20s
+1127,GeneralKrukan@NPC_SUMMONSLAVE_darkskeletonX1,any,198,1,10000,1000,60000,no,self,slavelt,32,1225,0,0,0,0,
+1127,GeneralKrukan@NPC_SUMMONSLAVE_fallenlordX2,any,198,2,10000,10,5000,no,self,slavelt,7,1172,0,0,0,0,
+1127,GeneralKrukan@NPC_SUMMONSLAVE_wightX1,any,198,1,10000,10,20000,no,self,slavelt,64,1124,0,0,0,0,
+1127,GeneralKrukan@NPC_SUMMONSLAVE_zombieX1,any,198,1,10000,10,20000,no,self,slavelt,64,1036,0,0,0,0,
+
 // Smoke Dragon skills
 // Summons lots of Black Scorpions and a few Black Mambas when low on health
 1141,SmokeDragon@NPC_SUMMONSLAVE_blackscorpionX5,any,198,4,10000,100,12000,no,self,slavele,13,1009,0,0,0,0,

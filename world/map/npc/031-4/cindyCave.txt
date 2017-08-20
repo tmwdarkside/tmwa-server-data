@@ -163,8 +163,10 @@ L_NextWave:
     set $@FIGHT_YETI_NUMBER, (5 + (1 * $@FIGHT_YETI_WAVE) + (2 * $@FIGHT_YETI_PLAYER_COUNT))/4;
     set $@YETI_COUNT, $@YETI_COUNT + $@FIGHT_YETI_NUMBER;
 
-    areamonster "031-4", 0, 0, 95, 91, "", 1072, $@FIGHT_YETI_NUMBER, "Cindy::OnPetDeath";
+    if ($@msg$ == "10") set $@YETI_COUNT, $@YETI_COUNT + 1;
 
+    areamonster "031-4", 0, 0, 95, 91, "", 1072, $@FIGHT_YETI_NUMBER, "Cindy::OnPetDeath";
+    if ($@msg$ == "10") areamonster "031-4", 0, 0, 95, 91, "", 1272, 1, "Cindy::OnPetDeath";
     set $@msg$, $@FIGHT_YETI_MESSAGES$[$@FIGHT_YETI_WAVE];
     if ($@msg$ == "")
         goto L_Return_1;

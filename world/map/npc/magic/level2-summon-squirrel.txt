@@ -7,8 +7,8 @@ OnCast:
     if (Sp < 35) end;
     if (getskilllv(SKILL_MAGIC) < .level) end;
     if (getskilllv(.school) < .level) end;
-    if (countitem("Acorn") < 10 || countitem("SquirrelPelt") < 1) end;
-    delitem "Acorn", 10;
+    if (countitem("Acorn") < 5 || countitem("SquirrelPelt") < 1) end;
+    delitem "Acorn", 5;
     delitem "SquirrelPelt", 1;
     set @_M_BLOCK, 1; // block casting, until the timer clears it
     addtimer 20000, "Magic Timer::OnClear"; // set the new debuff
