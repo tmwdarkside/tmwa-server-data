@@ -4,3 +4,4 @@ map: 068-4
 npc: npc/068-4/_mobs.txt
 npc: npc/068-4/_nodes.txt
 npc: npc/068-4/_warps.txt
+npc: npc/068-4/pvpflag.txt
