@@ -1,24 +1,25 @@
 // Name and Label MUST NOT exceed 23 characters (as marked)
 //ID,   Name___________________,        Type,   Price,      Sell,       Weight,     ATK,    DEF,    Range,  Mbonus, Slot,   Gender, Loc,        wLV,    eLV,    View,   {UseScript},                                                            {EquipScript}
-3501,    Loc1,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      1,          0,      0,      0,      {},  {}
-
-3502,    Loc2,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      2,          0,      0,      0,      {},                                                                     {}
-
-3503,    Loc4,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      4,          0,      0,      0,      {},                                                                     {}
-
-3504,    Loc8,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      8,          0,      0,      0,      {},                                                                     {}
-
-3505,    Loc16,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      16,          0,      0,      0,      {},                                                                     {}
-
-3506,    Loc32,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      32,          0,      0,      0,      {},                                                                     {}
-
-3507,    Loc64,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      64,          0,      0,      0,      {},                                                                     {}
-
-3508,    Loc128,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      128,          0,      0,      0,      {},                                                                     {}
-
-3509,    Loc256,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      256,          0,      0,      0,      {},                                                                     {}
-
-3510,    Loc512,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      512,          0,      0,      0,      {},                                                                     {}
+//TYpe Assassin Pants
+3501,    Loc1,                  5,      10000,      3000,       20,         0,      10,      0,      -5,     0,      2,      1,          0,      0,      0,      {},                                                                     {bonus bAgi, 10;}
+//Type dagger
+3502,    Loc2,                         4,      1000,       500,        200,        15,     0,      1,      0,      0,      2,      2,          1,      1,      1,      {},                                                                     {}
+//Type Silk Gloves
+3503,    Loc4,                     5,      5000,       2500,       4,          0,      1,      0,      0,      0,      2,      4,          0,      0,      0,      {},                                                                     {bonus bInt, 5;}
+//Type Grimoire
+3504,    Loc8,                       5,      5000,       2500,       100,        0,      0,      0,      5,      0,      2,      8,          0,      0,      0,      {},                                                                     {bonus bMaxSP, 30;}
+//Type Wedding Ring
+3505,    Loc16,                    5,      1000,       1,          1,          0,      0,      0,      0,      0,      2,      16,         0,      0,      0,      {},                                                                     {}
+//The Halo bow at main game uses the Loc 34, i have changed here to 32. Loc 32 is also used to Shields
+3506,    Loc32,                      4,      3000000,      1500000,       1200,       100,     0,      5,      0,      0,      2,      34,         1,      0,      11,     {},                                                                     {set @LauncherType, AMMO_BOW; callfunc "CheckLauncher"; bonus bCritical, 50;}
+//Type Warlord boots
+3507,    Loc64,                   5,      19000,      2000,       550,        0,      5,      0,      -22,    0,      2,      64,         0,      0,      0,      {},                                                                     {bonus bStr, 5;}
+//Type Sapphire Ring
+3508,    Loc1284011,                  5,      1000000,      500000,    1,          0,      0,      0,      0,      0,      2,      128,        0,      0,      0,      {},                                                                     {bonus bInt, 1;}
+//Type Warlord Helmet
+3509,    Loc256,                  5,      30000,       3000,     900, 0, 45, 0, -30, 0, 2, 256, 0, 0, 0,{},{bonus bMaxHP, 120; bonus bStr, 10;}
+//Based on White Savior Armor
+3510,    Loc512,             5,      3000000,     1500000,       1600,       0,      50,     0,      -170,   0,      2,      512,        0,      0,      0,      {},                                                                     {bonus bMaxHP, 120; bonus bDex, 50;}
 
 3511,    Loc1024,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      1024,          0,      0,      0,      {},                                                                     {}
 
@@ -29,5 +30,5 @@
 3514,    Loc8192,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      8192,          0,      0,      0,      {},                                                                     {}
 
 3515,    Loc16384,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      16348,          0,      0,      0,      {},                                                                     {}
-
-3516,    Loc32768,                 5,      1,      1,       1,          0,      0,      0,      0,      0,      2,      32768,          0,      0,      0,      {},                                                                     {}
+//Based on bone arrows
+3516,    Loc32768,                     10,     50,         20,         0,          55,     0,      0,      0,      0,      2,      32768,      0,      0,      0,      {},                                                                     {bonus bCritical, 1;set @AmmoType, AMMO_BOW; callfunc "CheckAmmo";}
