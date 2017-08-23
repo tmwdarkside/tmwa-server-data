@@ -10,7 +10,7 @@
 3504,    Loc8,                       5,      5000,       2500,       100,        0,      0,      0,      5,      0,      2,      8,          0,      0,      0,      {},                                                                     {bonus bMaxSP, 30;}
 //Type Wedding Ring
 3505,    Loc16,                    5,      1000,       1,          1,          0,      0,      0,      0,      0,      2,      16,         0,      0,      0,      {},                                                                     {}
-//Type Shield. Loc 32 is used on Shields and bows but at main game are using Loc 34 for bows.
+//Type Shield. Loc 32 is used on Shieldsbut bows but at main game are using Loc 34. Bows are weapons and seems needs use Loc 2, such as Daggers.
 3506,    Loc32,                    5,      40000,      3000,       2500,       0,      20,     0,      -200,   0,      2,      32,         0,      0,      0,      {},                                                                     {}
 //Type Warlord boots
 3507,    Loc64,                   5,      19000,      2000,       550,        0,      5,      0,      -22,    0,      2,      64,         0,      0,      0,      {},                                                                     {bonus bStr, 5;}
