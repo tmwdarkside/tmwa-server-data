@@ -10,8 +10,8 @@
 3504,    Loc8,                       5,      5000,       2500,       100,        0,      0,      0,      5,      0,      2,      8,          0,      0,      0,      {},                                                                     {bonus bMaxSP, 30;}
 //Type Wedding Ring
 3505,    Loc16,                    5,      1000,       1,          1,          0,      0,      0,      0,      0,      2,      16,         0,      0,      0,      {},                                                                     {}
-//The Halo bow at main game uses the Loc 34, i have changed here to 32. Loc 32 is also used to Shields
-3506,    Loc32,                      4,      3000000,      1500000,       1200,       100,     0,      5,      0,      0,      2,      34,         1,      0,      11,     {},                                                                     {set @LauncherType, AMMO_BOW; callfunc "CheckLauncher"; bonus bCritical, 50;}
+//Type Shield. Loc 32 is used on Shields and bows but at main game are using Loc 34 for bows.
+3506,    Loc32,                    5,      40000,      3000,       2500,       0,      20,     0,      -200,   0,      2,      32,         0,      0,      0,      {},                                                                     {}
 //Type Warlord boots
 3507,    Loc64,                   5,      19000,      2000,       550,        0,      5,      0,      -22,    0,      2,      64,         0,      0,      0,      {},                                                                     {bonus bStr, 5;}
 //Type Sapphire Ring
