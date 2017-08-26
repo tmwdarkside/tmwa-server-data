@@ -1,7 +1,7 @@
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 // Labyrinth mobs
 
-068-4,0,0,0,0|monster|GoldenDuck|1270,25,180000ms,0ms
+068-4,0,0,0,0|monster|GoldenDuck|1270,50,180000ms,0ms
 068-4,0,0,0,0|monster|JackO|1022,6,180000ms,0ms
 068-4,0,0,0,0|monster|Snake|1010,20,180000ms,0ms
 068-4,0,0,0,0|monster|Spider|1012,20,180000ms,0ms
@@ -10,3 +10,4 @@
 068-4,0,0,0,0|monster|AngryFireGoblin|1108,20,180000ms,0ms
 068-4,0,0,0,0|monster|Bandit|1064,20,180000ms,0ms
 068-4,0,0,0,0|monster|Archant|1060,20,180000ms,0ms
+068-4,0,0,0,0|monster|DarkSkeleton|1225,3,1800000ms,0ms

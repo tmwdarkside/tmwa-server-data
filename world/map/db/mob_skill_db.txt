@@ -110,7 +110,9 @@
 
 // Yeti King skills
 // Summons up to 3 Blueslimes
-1272,_Yetiking@NPC_SUMMONSLAVE_SlimeBlastX5,any,198,3,10000,10,5000,no,self,slavelt,7,1092,0,0,0,0,
+1272,Yetiking@NPC_SUMMONSLAVE_SlimeBlastX5,any,198,4,10000,10,5000,no,self,slavelt,7,1092,0,0,0,0,
+1272,YetiKing@NPC_SUMMONSLAVE_yetiX5,any,198,4,10000,2000,15000,no,self,myhpltmaxrate,25,1072,3,0,0,0,
+1272,Wolvern@NPC_SUMMONSLAVE_wolvernX5,any,198,4,10000,2000,15000,no,self,myhpltmaxrate,25,1090,3,0,0,0,
 1092,SlimeBlast@NPC_SELFDESTRUCTION,attack,175,1,10000,100,500,yes,self,notintown,0,30,0,0,0,0,
 
 // General Krukan skills
