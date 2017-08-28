@@ -28,6 +28,11 @@ function|script|ProcessWeapons
        (@weaponitem != 594) &&
        (@weaponitem != 867) &&
        (@weaponitem != 1201) &&
+       (@weaponitem != 3433) &&
+       (@weaponitem != 3434) &&
+       (@weaponitem != 3435) &&
+       (@weaponitem != 3436) &&
+       (@weaponitem != 3438) &&
        (@weaponitem != 8021) &&
        (@weaponitem != 8022) &&
        (@weaponitem != 8077) goto L_Unequip;
