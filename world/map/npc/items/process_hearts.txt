@@ -12,7 +12,7 @@ function|script|ProcessHearts
 
 
 //Only Banshee Bow is compatible with Dark Necklace
-    if (@weaponitem != 878) goto L_Weapon;
+    if (@weaponitem != 878 || @weaponitem != 3489) goto L_Weapon;
 
     goto L_Return;
 
