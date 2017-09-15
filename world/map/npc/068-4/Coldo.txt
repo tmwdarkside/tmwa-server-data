@@ -1,0 +1,96 @@
+068-4,94,105,0|script|Coldo|615
+{
+goto L_Start;
+
+L_Start:
+        if ((countitem("GoldenEgg") >= 5) && (Zeny >= 60000000)) goto L_Shop_Inventory;
+        mes "[Coldo]";
+        mes "";
+        mes "Hi:";
+        mes "\"I can create special golden items, but you needs 5 Golden Eggs and 60.000.000 gp to start talking about it!\"";
+        mes "\"Me also require to see as reference the original item before create the golden version.\"";
+close;
+
+L_Shop_Inventory:
+        menu
+                "Golden Banshee Bow", L_Buy_GoldenBansheeBow,
+                "Golden Bull Helmet", L_Buy_GoldenBullHelmet,
+                "Golden Forest Armor", L_Buy_GoldenForestArmor,
+                "Nothing today, thanks.", L_Close;
+
+L_Buy_GoldenBansheeBow:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("GoldenEgg") < 5)) goto L_NoEggs;
+        if ((countitem("BansheeBow") < 1)) goto L_MissedOriginal;
+        if (Zeny < 60000000) goto L_NoMoney;
+        getitem "GoldenBansheeBow", 1;
+    	set Zeny, Zeny - 60000000;
+    	delitem "GoldenEgg", 5;
+        mes "[Coldo]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+goto L_Start;
+
+goto L_Start;
+
+L_Buy_GoldenBullHelmet:
+
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("GoldenEgg") < 5)) goto L_NoEggs;
+        if ((countitem("BullHelmet") < 1)) goto L_MissedOriginal;
+        if (Zeny < 60000000) goto L_NoMoney;
+        getitem "GoldenBullHelmet", 1;
+    	set Zeny, Zeny - 60000000;
+    	delitem "GoldenEgg", 5;
+        mes "[Coldo]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+
+goto L_Start;
+
+L_Buy_GoldenForestArmor:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("GoldenEgg") < 5)) goto L_NoEggs;
+        if ((countitem("ForestArmor") < 1)) goto L_MissedOriginal;
+        if (Zeny < 60000000) goto L_NoMoney;
+        getitem "GoldenForestArmor", 1;
+    	set Zeny, Zeny - 60000000;
+    	delitem "GoldenEgg", 5;
+        mes "[Coldo]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+goto L_Start;
+
+L_Full_Inventory:
+        mes "[Coldo]";
+        mes "";
+        mes "\"Seems you don't have free inventory slot for this.\"";
+close;
+
+L_NoEggs:
+        mes "[Coldo]";
+        mes "";
+        mes "\"Seems you don't have eggs enought!!\"";
+close;
+
+L_MissedOriginal:
+        mes "[Coldo]";
+        mes "";
+        mes "\"Seems you don't have the original item with you, and i need to see it!!\"";
+close;
+
+L_NoMoney:
+        mes "[Coldo]";
+        mes "";
+        mes "\"Seems you don't have money enought!!\"";
+close;
+
+L_Close:
+close;
+}
