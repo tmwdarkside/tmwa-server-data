@@ -12,6 +12,10 @@ L_Start:
 close;
 
 L_Shop_Inventory:
+        mes "[Coldo]";
+        mes "";
+        mes "Hi:";
+        mes "\"Make your selection!\"";
         menu
                 "Golden Banshee Bow", L_Buy_GoldenBansheeBow,
                 "Golden Bull Helmet", L_Buy_GoldenBullHelmet,
@@ -31,7 +35,7 @@ L_Buy_GoldenBansheeBow:
         mes "";
         mes "\"Enjoy it!\"";
         next;
-goto L_Start;
+
 
 goto L_Start;
 

@@ -1,6 +1,7 @@
 // Map 068-4: Labyrinth
 // This file is generated automatically. All manually added changes will be removed when running the Converter.
 map: 068-4
+npc: npc/068-4/Coldo.txt
 npc: npc/068-4/_mobs.txt
 npc: npc/068-4/_nodes.txt
 npc: npc/068-4/_warps.txt
