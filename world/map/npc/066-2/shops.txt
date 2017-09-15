@@ -17,4 +17,6 @@
 
 066-2,31,13,0|shop|Erin|607,SaviorShield:*1,Buckler:*1,SaviorPants:*1,BlackMambaPants:*1,BlackMambaBoots:*1,HaloBow:*1
 
+066-2,5,5,0|shop|Goldo|614,GoldenBuckler:*1,GoldenBromenalLegs:*1,GoldenAntlerHat:*1,GoldenAxeHat:*1,GoldenBandana:*1,GoldenMambaHelm:*1,GoldenBromenalHelmet:*1,GoldenBunnyEars:*1,GoldenCowboyHat:*1,GoldenDarkHelm:*1,GoldenEggshellHat:*1,GoldenEyepatch:*1,GoldenGladiatorHelm:*1,GoldenNose:*1,GoldenPanHat:*1,GoldenPaperBag:*1,GoldenPhylactery:*1,GoldenPumpkinHelmet:*1,GoldenRoseHat:*1,GoldenTopHat:*1,GoldenVikingHelmet:*1,GoldenMambaArmor:*1,GoldenBromenalChest:*1,GoldenChainmail:*1,GoldenBromenalGloves:*1,GoldenBromenalBoots:*1
+
 066-2,8,13,0|shop|Arod|608,GrimaceOfDementia:*1,Lifestone:*1,PileOfAsh:*1,SulphurPowder:*1,IronPowder:*1,Amethyst:*3,Sapphire:*2,IcedWater:*10,IceCube:*10
