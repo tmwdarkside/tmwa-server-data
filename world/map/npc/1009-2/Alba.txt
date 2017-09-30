@@ -1,0 +1,161 @@
+
+1009-2,121,26,0|script|Alba Ricoque|616
+{
+goto L_Start;
+
+L_Start:
+        mes "[Alba Ricoque]";
+        mes "Hi:";
+        mes "\"I can create some Necromancer items, but i needs Money, Cotton Clothes, Dyes, Blood Stones and maybe Raw Logs to create them.\"";
+        mes "\"Necromancer Boots requires: 1.000.000 gp, 10 Dark Blue dyes, 5 Yellow dyes, 4 Red dyes, 50 Cotton Clotes and 20 Blood Stones.\"";
+        mes "\"Necromancer Gloves requires: 1.000.000 gp, 10 Dark Blue dyes, 5 Yellow dyes, 4 Red dyes, 50 Cotton Clotes and 20 Blood Stones.\"";
+        mes "\"Necromancer Pants requires: 2.000.000 gp, 15 Dark Blue dyes, 10 Yellow dyes, 10 Red dyes, 150 Cotton Clotes and 50 Blood Stones.\"";
+        mes "\"Necromancer Robes requires: 3.000.000 gp, 25 Dark Blue dyes, 15 Yellow dyes, 15 Red dyes, 200 Cotton Clotes and 75 Blood Stones.\"";
+        mes "\"Necromancer Hat requires: 3.000.000 gp, 25 Dark Blue dyes, 15 Yellow dyes, 15 Red dyes, 75 Cotton Clotes and 50 Blood Stones.\"";
+        mes "\"Necromancer Staff requires: 5.000.000 gp, 25 Dark Blue dyes, 15 Yellow dyes, 15 Red dyes, 500 Raw Logs and 50 Blood Stones.\"";
+        mes "\"And now, make your selection!\"";
+        menu
+                "Necromancer Boots", L_Buy_NecromancerBoots,
+                "Necromancer Gloves", L_Buy_NecromancerGloves,
+                "Necromancer Pants", L_Buy_NecromancerPants,
+                "Necromancer Robes", L_Buy_NecromancerRobes,
+                "Nothing today, thanks.", L_Close;
+
+L_Buy_NecromancerBoots:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("DarkBlueDye") < 10)) goto L_NoDarkBlue;
+        if ((countitem("YellowDye") < 5)) goto L_NoYellow;
+        if ((countitem("RedDye") < 4)) goto L_NoRed;
+        if ((countitem("CottonCloth") < 50)) goto L_NoCotton;
+        if ((countitem("BloodStone") < 20)) goto L_NoBlood;
+        if (Zeny < 1000000) goto L_NoMoney;
+        getitem "NecromancerBoots", 1;
+    	set Zeny, Zeny - 1000000;
+    	delitem "DarkBlueDye", 10;
+    	delitem "YellowDye", 5;
+    	delitem "RedDye", 4;
+    	delitem "CottonCloth", 50;
+    	delitem "BloodStone", 20;
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+
+
+goto L_Start;
+
+L_Buy_NecromancerGloves:
+
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("DarkBlueDye") < 10)) goto L_NoDarkBlue;
+        if ((countitem("YellowDye") < 5)) goto L_NoYellow;
+        if ((countitem("RedDye") < 4)) goto L_NoRed;
+        if ((countitem("CottonCloth") < 50)) goto L_NoCotton;
+        if ((countitem("BloodStone") < 20)) goto L_NoBlood;
+        if (Zeny < 1000000) goto L_NoMoney;
+        getitem "NecromancerGloves", 1;
+    	set Zeny, Zeny - 1000000;
+    	delitem "DarkBlueDye", 10;
+    	delitem "YellowDye", 5;
+    	delitem "RedDye", 4;
+    	delitem "CottonCloth", 50;
+    	delitem "BloodStone", 20;
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+
+goto L_Start;
+
+L_Buy_NecromancerPants:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("DarkBlueDye") < 15)) goto L_NoDarkBlue;
+        if ((countitem("YellowDye") < 10)) goto L_NoYellow;
+        if ((countitem("RedDye") < 10)) goto L_NoRed;
+        if ((countitem("CottonCloth") < 150)) goto L_NoCotton;
+        if ((countitem("BloodStone") < 50)) goto L_NoBlood;
+        if (Zeny < 2000000) goto L_NoMoney;
+        getitem "NecromancerPants", 1;
+    	set Zeny, Zeny - 2000000;
+    	delitem "DarkBlueDye", 15;
+    	delitem "YellowDye", 10;
+    	delitem "RedDye", 10;
+    	delitem "CottonCloth", 150;
+    	delitem "BloodStone", 50;
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+goto L_Start;
+
+L_Buy_NecromancerRobes:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("DarkBlueDye") < 25)) goto L_NoDarkBlue;
+        if ((countitem("YellowDye") < 15)) goto L_NoYellow;
+        if ((countitem("RedDye") < 15)) goto L_NoRed;
+        if ((countitem("CottonCloth") < 200)) goto L_NoCotton;
+        if ((countitem("BloodStone") < 75)) goto L_NoBlood;
+        if (Zeny < 3000000) goto L_NoMoney;
+        getitem "NecromancerRobe", 1;
+    	set Zeny, Zeny - 3000000;
+    	delitem "DarkBlueDye", 25;
+    	delitem "YellowDye", 15;
+    	delitem "RedDye", 15;
+    	delitem "CottonCloth", 200;
+    	delitem "BloodStone", 75;
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+goto L_Start;
+
+
+L_Full_Inventory:
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Seems you don't have free inventory slot for this.\"";
+close;
+
+L_NoDarkBlue:
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Seems you don't have Dark Blue Dyes enought!!\"";
+close;
+
+L_NoYellow:
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Seems you don't have Yellow Dyes enought!!\"";
+close;
+
+L_NoRed:
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Seems you don't have Red Dyes enought!!\"";
+close;
+
+L_NoCotton:
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Seems you don't have Cotton Clothes enought!!\"";
+close;
+
+L_NoBlood:
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Seems you don't have Blood Stones enought!!\"";
+close;
+
+L_NoMoney:
+        mes "[Alba Ricoque]";
+        mes "";
+        mes "\"Seems you don't have money enought!!\"";
+close;
+
+L_Close:
+close;
+}

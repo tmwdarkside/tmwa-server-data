@@ -20,6 +20,11 @@ L_Shop_Inventory:
                 "Golden Banshee Bow", L_Buy_GoldenBansheeBow,
                 "Golden Bull Helmet", L_Buy_GoldenBullHelmet,
                 "Golden Forest Armor", L_Buy_GoldenForestArmor,
+                "Golden Wizard Hat", L_Buy_GoldenWizardHat,
+                "Golden Silk Robe", L_Buy_GoldenSilkRobe,
+                "Golden Fine Dress", L_Buy_GoldenFineDress,
+                "Golden Warlord Boots", L_Buy_GoldenWarlordBoots,
+
                 "Nothing today, thanks.", L_Close;
 
 L_Buy_GoldenBansheeBow:
@@ -69,6 +74,69 @@ L_Buy_GoldenForestArmor:
         mes "";
         mes "\"Enjoy it!\"";
         next;
+goto L_Start;
+
+L_Buy_GoldenWizardHat:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("GoldenEgg") < 5)) goto L_NoEggs;
+        if ((countitem("WizardHat") < 1)) goto L_MissedOriginal;
+        if (Zeny < 60000000) goto L_NoMoney;
+        getitem "GoldenWizardHat", 1;
+    	set Zeny, Zeny - 60000000;
+    	delitem "GoldenEgg", 5;
+        mes "[Coldo]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+goto L_Start;
+
+L_Buy_GoldenSilkRobe:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("GoldenEgg") < 5)) goto L_NoEggs;
+        if ((countitem("SilkRobe") < 1)) goto L_MissedOriginal;
+        if (Zeny < 60000000) goto L_NoMoney;
+        getitem "GoldenSilkRobe", 1;
+    	set Zeny, Zeny - 60000000;
+    	delitem "GoldenEgg", 5;
+        mes "[Coldo]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+
+goto L_Start;
+
+L_Buy_GoldenFineDress:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("GoldenEgg") < 5)) goto L_NoEggs;
+        if ((countitem("FineDress") < 1)) goto L_MissedOriginal;
+        if (Zeny < 60000000) goto L_NoMoney;
+        getitem "GoldenFineDress", 1;
+    	set Zeny, Zeny - 60000000;
+    	delitem "GoldenEgg", 5;
+        mes "[Coldo]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+
+goto L_Start;
+
+L_Buy_GoldenWarlordBoots:
+        getinventorylist;
+        if (@inventorylist_count == 100) goto L_Full_Inventory;
+        if ((countitem("GoldenEgg") < 5)) goto L_NoEggs;
+        if ((countitem("WarlordBoots") < 1)) goto L_MissedOriginal;
+        if (Zeny < 60000000) goto L_NoMoney;
+        getitem "GoldenWarlordBoots", 1;
+    	set Zeny, Zeny - 60000000;
+    	delitem "GoldenEgg", 5;
+        mes "[Coldo]";
+        mes "";
+        mes "\"Enjoy it!\"";
+        next;
+
 goto L_Start;
 
 L_Full_Inventory:
